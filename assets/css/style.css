@@ -1,0 +1,73 @@
+/*
+ *
+ * CSS Reset
+ *
+ */
+
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ }
+
+ body {
+ 	color: #343a40;
+ 	font-family: 'Lato', sans-serif;*/
+ }
+
+
+ /*
+  *
+  * General Rules
+  *
+  */
+
+
+  div#mainWrapper {
+  	background-color: #333;
+  	position: relative;
+  	background-image: url(../img/background.jpg);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center;
+  	height: 100vh;
+  }
+  span#webDev {
+  	border-right: 2px solid #fffeee;
+  	padding-right: 5px;
+  }
+
+  div#mainHeader > h1 {
+  	font-family: 'Sigmar One', cursive;
+  	text-shadow: 5px 5px 2px #b84f4b;
+  	color: #fffeee;
+  }
+  div#mainHeader > h3 {
+  	color: #fffeee;
+  	text-transform: uppercase;
+  }
+ 
+  div#mainHeader > button {
+  	margin: 10px;
+  	text-transform: uppercase;
+
+  }
+  button#hireButton {
+  	background-color: #b84f4b;
+  	border: none;
+  }
+
+  /* About */
+
+  div#aboutHeader {
+  	margin-top: 15px;
+  }
+
+  div#aboutCenter > img {
+  	/*width: 20%;*/
+  	border-radius: 50%;
+  	/*display: block;*/
+  	/*margin: 0 auto;*/
+  }
+
+  

@@ -1,0 +1,43 @@
+
+
+
+             /* Tablet Devices */
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+
+	div#mainHeader {
+		/*border: 1px solid #fff;*/
+		position: absolute;
+		width: 100%;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, 170%);
+	}
+
+	       /* About */
+
+	div#aboutLeft > h3 {
+		background-color: #b84f4b;
+		color: #fffeee;
+		/*width: 100%;*/
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	div#aboutLeft > h4 {
+		font-weight: 700;
+	}
+
+	div#aboutCenter > button {
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+		background-color: yellow;
+		border-radius: 10%;
+	}
+
+	p#aboutDeveloper {
+		padding: 15px;
+		text-align: center;
+	}
+}
