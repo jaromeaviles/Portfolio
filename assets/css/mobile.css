@@ -1,6 +1,6 @@
 
 
-                /* Mobile Devices */
+/* Mobile Devices */
 
 @media only screen and (max-width: 400px) {
 
@@ -12,6 +12,19 @@
 		/*transform: translate(-50%, 170%);*/
 		margin-top: 25px;
 	}
+	div#socialLinks > ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	div#socialLinks > ul > li {
+		display: inline;
+		margin: 10px;
+	}
+	div#socialLinks > ul > li > a {
+		font-size: 40px;
+	}
 
 	/* About */
 
@@ -22,18 +35,19 @@
 		text-align: center;
 		margin-bottom: 25px;
 	}
-	div#aboutLeft > h4 {
+	div#aboutLeft > h5,
+	div#aboutRight > h5 {
 		font-weight: 700;
 		text-align: center;
 	}
 
 	div#aboutCenter > button {
 		text-align: center;
-		/*display: block;*/
-		/*margin: 0 auto;*/
-		width: 100%;
-		background-color: yellow;
-		border-radius: 10%;
+		display: block;
+		margin: 0 auto;
+		/*width: 100%;*/
+		background-color: #00A86B;
+		color: #fff;
 	}
 
 	p#aboutDeveloper {
@@ -41,5 +55,22 @@
 		text-align: center;
 	}
 
+	div#aboutRight > h3 {
+		background-color: #b84f4b;
+		color: #fffeee;
+		/*width: 40%;*/
+		text-align: center;
+		margin-bottom: 25px;
+	}
 
+	/* Projects */
+
+	div.projectContent > h4 {
+		text-align: center;
+	}
+
+	a.btn-visit {
+		width: 100%;
+		margin-bottom: 15px;
+	}
 }

@@ -22,7 +22,7 @@
 
 	<!-- Imports Google Fonts -->
 
-	<link href="https://fonts.googleapis.com/css?family=Lato|Sigmar+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Chela+One" rel="stylesheet">
 
 	<!-- Imports Custom Stylesheet -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/desktop.css">
@@ -31,165 +31,288 @@
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
 
- </head>
- <body>
+</head>
+<body>
 
- 	<!-- Navigation -->
+	<!-- Navigation -->
 
- 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
- 		<div class="container">
- 			
- 			<a class="navbar-brand" href="#">Ja</a>
- 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
- 				<span class="navbar-toggler-icon"></span>
- 			</button>
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+		<div class="container">
 
- 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
- 				<ul class="navbar-nav ml-auto pr-5">
- 					<li class="nav-item">
- 						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
- 					</li>
- 					<li class="nav-item">
- 						<a class="nav-link" href="#aboutCenter">About</a>
- 					</li>
- 					<li class="nav-item">
- 						<a class="nav-link" href="#">Work</a>
- 					</li>
- 					<li class="nav-item">
- 						<a class="nav-link" href="#">Contact</a>
- 					</li>
- 				</ul>
- 			</div>
- 		</div> <!-- /.container -->
- 	</nav>
+			<a class="navbar-brand" href="index.html"><img src="./assets/img/creator.jpg" alt="Ja" width="40" height="40" class="img-thumbnail"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-
- 	<div id="mainWrapper">
- 		<div class="container-fluid">
- 			<div class="row">
- 				<div class="col-sm-12 col-md-12 col-lg-12">
- 					<div id="mainHeader" class="text-center">
- 						<h1>My Name is Ja</h1>
- 						<h3>Professional web designer &amp; <span id="webDev">Developer</span></h3>
-
- 						<button class="btn btn-success px-4" id="hireButton"><i class="fas fa-check"></i> Hire me</button>
- 						<button class="btn btn-default px-4"> <i class="fas fa-briefcase"></i> My Projects</button>
- 					</div> <!-- /#mainHeader -->
- 				</div>
- 			</div>
- 		</div>
- 	</div> <!-- /#mainWrapper -->
-
- 	<!-- About -->
-
- 	<div class="container">
- 		<div class="row">
- 			<div class="col-sm-12 col-md-12 col-lg-12">
- 				<div id="aboutHeader" class="py-4">	
- 					<h2 class="text-center">About Me</h2>
- 				</div> <!-- /#aboutHeader -->
- 			</div>
-
- 			<div class="col-sm-12 col-md-4 col-lg-4">
- 				<div id="aboutLeft" class="mb-3">
- 					<h3>My Skills</h3>
-
- 					<h4>UX Design</h4>
-
- 					<p>
- 						Website Design, Mobile Design, Responsive Design
- 					</p>
-
- 					<h4>Development</h4>
-
- 					<p>
- 						HTML 5, CSS 3, Emulator HTML, JQuery
- 					</p>
-
- 					<h3>Tools I Use</h3>
-
- 					<p>
- 						<strong>Sublime Text</strong>
- 					</p>
- 					<p>
- 						<strong>Github</strong>
- 					</p>
- 					<p>
- 						<strong>Chrome Developer Tools</strong>
- 					</p>
- 					<p>
- 						<strong>Bootstrap</strong>
- 					</p>
- 					<p>
- 						<strong>Sass</strong>
- 					</p>
- 					<p>
- 						<strong>JQuery</strong>
- 					</p>
- 				</div> <!-- /#abouLeft -->
- 			</div>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto pr-5">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#aboutCenter">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projectHeader">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div> <!-- /.container -->
+	</nav>
 
 
- 			<div class="col-sm-12 col-md-4 col-lg-4">
- 				<div id="aboutCenter" class="mb-3">
- 					<img src="./assets/img/creator.jpg" alt="My Image" class="img-fluid img-thumbnail">
+	<div id="mainWrapper">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<div id="mainHeader" class="text-center">
+						<h1>Jarome Aviles</h1>
+						<h3>Professional web designer &amp; <span id="webDev">Developer</span></h3>
 
- 					<p id="aboutDeveloper">
- 						I'm a full stack web developer, freelancer and tuitt coding bootcamp graduate. Knowledgeable 
- 						in different techonologies like HTML5, CSS3, Bootstrap4, Javascript, Jquery, PHP, laravel MVC, 
- 						MysQl. 
- 					</p> 
+						<div id="socialLinks">
+							<ul>
+								<li><a href="#" id="fb"><i class="fab fa-facebook"></i></a></li>
+								<li><a href="#" id="linked"><i class="fab fa-linkedin"></i></a></li>
+								<li><a href="#" id="twitt"><i class="fab fa-twitter-square"></i></a></li>
+								<li><a href="#" id="github"><i class="fab fa-github-square"></i></a></li>
+							</ul>
+							<button class="btn btn-success px-4" id="hireButton"><i class="fas fa-check"></i> Hire me</button>
+						</div> <!-- /#socialLinks -->
+					</div> <!-- /#socialLinks -->
+				</div> <!-- /#mainHeader -->
+			</div>
+		</div>
+	</div>
+</div> <!-- /#mainWrapper -->
 
- 					<button class="btn btn-default"><i class="fas fa-download"></i> Download Resume</button>
- 				</div> <!-- /#aboutCenter -->
- 			</div>
+<!-- About -->
 
- 			<div class="col-sm-12 col-md-4 col-lg-4">
- 				<div id="aboutRight">
- 					<h3>Experience</h3>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12 col-md-12 col-lg-12">
+			<div id="aboutHeader" class="py-4">	
+				<h2 class="text-center">About Me</h2>
+			</div> <!-- /#aboutHeader -->
+		</div>
 
- 					<h4>Freelance</h4>
+		<div class="col-sm-12 col-md-4 col-lg-4">
+			<div id="aboutLeft" class="mb-3">
+				<h3>My Skills</h3>
 
- 					<p>
- 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
- 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
- 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
- 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
- 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
- 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
- 					</p>
+				<h5>UX Design</h5>
 
- 					<h4>Digitizer</h4>
+				<p>
+					Website Design, Mobile Design, Responsive Design
+				</p>
 
- 					<p>
- 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
- 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
- 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
- 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
- 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
- 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
- 					</p>
- 				</div> <!-- /#abouRight -->
- 			</div>
- 		</div> <!-- /.row -->
- 	</div> <!-- /.container -->
+				<h5>Development</h5>
 
+				<p>
+					HTML 5, CSS 3, Emulator HTML, JQuery
+				</p>
 
+				<h3>Tools I Use</h3>
 
-
-
-
-	<!-- Imports Bootstrap Script -->
-
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+				<p>
+					<strong>Sublime Text</strong> - For coding and developing webpages.
+				</p>
+				<p>
+					<strong>Github</strong>
+				</p>
+				<p>
+					<strong>Chrome Developer Tools</strong>
+				</p>
+				<p>
+					<strong>Bootstrap</strong>
+				</p>
+				<p>
+					<strong>Sass</strong>
+				</p>
+				<p>
+					<strong>JQuery</strong>
+				</p>
+			</div> <!-- /#abouLeft -->
+		</div>
 
 
-	<!-- Imports Custom Script -->
+		<div class="col-sm-12 col-md-4 col-lg-4">
+			<div id="aboutCenter" class="mb-3">
+				<img src="./assets/img/creator.jpg" alt="My Image" class="img-fluid img-thumbnail">
 
-	<script src="./assets/script.js"></script>
+				<p id="aboutDeveloper">
+					I'm a full stack web developer, freelancer and tuitt coding bootcamp graduate. Knowledgeable 
+					in different techonologies like HTML5, CSS3, Bootstrap4, Javascript, Jquery, PHP, laravel MVC, 
+					MysQl. 
+				</p> 
+
+				<button class="btn btn-default"><i class="fas fa-download"></i> Download Resume</button>
+			</div> <!-- /#aboutCenter -->
+		</div>
+
+		<div class="col-sm-12 col-md-4 col-lg-4">
+			<div id="aboutRight">
+				<h3>Experience</h3>
+
+				<h5>Freelance</h5>
+
+				<p>
+					I started working on february 8, 2018 for Manifest Multimedia as an Independent Contractor, We create/update 
+					websites using Wordpress.
+				</p>
+
+				<h5>Digitizer</h5>
+
+				<p>
+					I Create Maps and Analyze in system using <strong>GIS</strong> (Geographical Information System) of Meralco
+					Application. I also responsible in Digitizing Primary Circuitry connectivity survey maps using GIS maps wherein 
+					substation feeder connected to the distribution system of MERALCO.
+				</p>
+			</div> <!-- /#abouRight -->
+		</div>
+	</div> <!-- /.row -->
+</div> <!-- /.container -->
+
+<!-- Skillsets -->
+
+<div id="skillWrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12">
+				<div id="skillSection">
+
+					<h2 class="text-center">My Skills</h2>
+
+					<span>HTML/CSS</span>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<span>Javascript</span>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<span>JQuery</span>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<span>PHP</span>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+					</div> <!-- .progress -->
+				</div> <!-- /#skillSection -->
+			</div>
+		</div> <!-- .row -->
+	</div> <!-- .container -->
+</div> <!-- /#skillWrapper -->
+
+<div id="projectsWrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12">
+				<div id="projectHeader">
+					<h2>Projects</h2>
+				</div> <!-- /#projectHeader -->
+			</div>
+
+			<!-- Capstone 1 -->
+
+			<div class="col-sm-12 col-md-4 col-lg-4 mt-2">
+				<img src="./assets/img/capstone1.png" alt="Capstone 1 Project" class="img-fluid img-thumbnail">
+			</div>
+			<div class="col-sm-12 col-md-8 col-lg-8">
+				<div class="projectContent mt-3">
+					<h4>I Heart Pangasinan</h4>
+					<p>
+						The I “Heart” Pangasinan promotes the beauty of Pangasinan, it gives you 
+						information about the famous beaches and tourist spots that you and you’re 
+						loved one’s enjoy.
+					</p>
+
+					<a href="jaromeaviles.github.io/I-Heart-Pangasinan" target="_blank" class="btn btn-success btn-visit">Visit Site</a>
+				</div> <!-- /.projectContent -->
+			</div>
+
+			<!-- Capstone 2 -->
+
+			<div class="col-sm-12 col-md-4 col-lg-4 mt-2">
+				<img src="./assets/img/capstone2.png" alt="Capstone 2 Project" class="img-fluid img-thumbnail">
+			</div>
+			<div class="col-sm-12 col-md-8 col-lg-8">
+				<div class="projectContent mt-3">
+					<h4>Capstone 2</h4>
+					<p>
+						Coming Soon!
+					</p>
+
+					<a href="jaromeaviles.github.io/I-Heart-Pangasinan" target="_blank" class="btn btn-success btn-visit">Visit Site</a>
+				</div> <!-- /.projectContent -->
+			</div>
+
+			<!-- Capstone 3 -->
+
+			<div class="col-sm-12 col-md-4 col-lg-4 mt-2">
+				<img src="./assets/img/capstone3.png" alt="Capstone 3 Project" class="img-fluid img-thumbnail">
+			</div>
+			<div class="col-sm-12 col-md-8 col-lg-8">
+				<div class="projectContent mt-3">
+					<h4>Capstone 3</h4>
+					<p>
+						Coming Soon!
+					</p>
+
+					<a href="jaromeaviles.github.io/I-Heart-Pangasinan" target="_blank" class="btn btn-success btn-visit">Visit Site</a>
+				</div> <!-- /.projectContent -->
+			</div>
+		</div> <!-- /.row -->
+	</div> <!-- /.container -->
+</div> <!-- /#projectsWrapper -->
+
+<div id="contactWrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12">
+				<div id="contactHeader">
+					<h3 class="text-center">Contact Me</h3>
+				</div> <!-- /#contactHeader -->
+			</div>
+
+			<div id="contactForm">
+				<form method="POST" action="index.html" id="contactMe">
+					<div class="form-group">
+						<label for="emailAdd">Email address</label>
+						<input type="email" class="form-control" id="emailAdd" aria-describedby="emailHelp" placeholder="Enter email">
+					</div>
+					<div class="form-group">
+					<label for="formMessage">Message</label>
+					<textarea class="form-control" id="formMessage">
+						
+					</textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Send</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div> <!-- /#contactWrapper -->
+
+
+
+
+
+
+<!-- Imports Bootstrap Script -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+<!-- Imports Custom Script -->
+
+<script src="./assets/script.js"></script>
 </body>
 </html>

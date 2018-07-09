@@ -11,7 +11,8 @@
  }
 
  body {
- 	color: #343a40;
+ 	color: #caccc1;
+  background-color: #151a1d;
  	font-family: 'Lato', sans-serif;*/
  }
 
@@ -22,15 +23,22 @@
   *
   */
 
+  a.navbar-brand > img {
+    border-radius: 50%;
+    background: lightgrey;
+  }
+
 
   div#mainWrapper {
   	background-color: #333;
   	position: relative;
-  	background-image: url(../img/background.jpg);
+  	background-image: url(../img/sky.jpg);
+    background-attachment: fixed;
   	background-repeat: no-repeat;
   	background-size: cover;
   	background-position: center;
   	height: 100vh;
+    margin-top: 50px;
   }
   span#webDev {
   	border-right: 2px solid #fffeee;
@@ -38,8 +46,9 @@
   }
 
   div#mainHeader > h1 {
-  	font-family: 'Sigmar One', cursive;
+  	font-family: 'Chela One', cursive;
   	text-shadow: 5px 5px 2px #b84f4b;
+    letter-spacing: 2px;
   	color: #fffeee;
   }
   div#mainHeader > h3 {
@@ -53,8 +62,23 @@
 
   }
   button#hireButton {
-  	background-color: #b84f4b;
-  	border: none;
+  	/*background-color: #b84f4b;*/
+    background-color: #151a1d;
+    color: #fff;
+    border: 1px solid #669297;
+  }
+
+  #fb {
+      color: #3b5998;
+  }
+  #linked {
+    color: #0e76a8;
+  }
+  #twitt {
+    color: #1da1f2;
+  }
+  #github {
+    color: #4078c0;
   }
 
   /* About */
@@ -63,11 +87,74 @@
   	margin-top: 15px;
   }
 
+  div#aboutHeader > h2 { 
+    font-family: 'Chela One', cursive;
+  }
+
   div#aboutCenter > img {
-  	/*width: 20%;*/
-  	border-radius: 50%;
-  	/*display: block;*/
-  	/*margin: 0 auto;*/
+    /*width: 20%;*/
+    border-radius: 50%;
+    /*display: block;*/
+    /*margin: 0 auto;*/
+  }
+
+  /* Skills */
+
+  div#skillWrapper {
+    background-color: #151a1d;
+    padding-bottom: 50px;
+  }
+  div#skillSection > h2 {
+    font-family: 'Chela One', cursive;
+    padding: 15px;
+    color: #caccc1;
+  }
+  div#skillSection > span {
+    color: #caccc1;
+  }
+  div.progress-bar {
+    background-color: #00A86B;
+  }
+
+  /* Projects */
+
+  div#projectsWrapper {
+    margin-top: 15px;
+  /*  background-image: url(../img/art.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    background-color: #caccc1;
+  }
+
+  div#projectHeader {
+    text-align: center;
+    font-family: 'Chela One', cursive;
+    padding: 15px;
+  }
+  div#projectHeader > h2 {
+    color: #333;
+  }
+
+  div.projectContent > h4,
+  div.projectContent > p {
+    color: #333;
+  }
+
+
+
+  div.projectContent > h4 {
+    font-family: 'Chela One', cursive;
+  }
+
+  
+  a.btn-visit {
+    background-color: #151a1d;
+  }
+
+  div#contactHeader {
+    padding: 15px;
   }
 
   

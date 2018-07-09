@@ -15,6 +15,20 @@
 		transform: translate(-50%, 170%);
 	}
 
+	div#socialLinks > ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	div#socialLinks > ul > li {
+		display: inline;
+		margin: 10px;
+	}
+	div#socialLinks > ul > li > a {
+		font-size: 40px;
+	}
+
 	/* About */
 
 	div#aboutLeft > h3 {
@@ -24,7 +38,8 @@
 		text-align: center;
 		margin-bottom: 25px;
 	}
-	div#aboutLeft > h4 {
+	div#aboutLeft > h5,
+	div#aboutRight > h5 {
 		font-weight: 700;
 	}
 
@@ -32,12 +47,48 @@
 		text-align: center;
 		display: block;
 		margin: 0 auto;
-		background-color: yellow;
-		border-radius: 10%;
+		background-color: #00A86B;
+		color: #fff;
 	}
 
 	p#aboutDeveloper {
 		padding: 15px;
 		text-align: center;
+	}
+
+	div#aboutRight > h3 {
+		background-color: #b84f4b;
+		color: #fffeee;
+		width: 40%;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+
+	/* Skills */
+
+	div.progress {
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	/* Projects */
+
+	div#projectsWrapper {
+		padding-bottom: 40px;
+	}
+
+	div.projectContent > p {
+		padding-top: 25px;
+		padding-left: 25px;
+	}
+	.btn-visit {
+		margin-left: 25px;
+	}
+
+	/* Contact */
+
+	div#contactForm {
+		width: 80%;
+		margin: 0 auto;
 	}
 }
