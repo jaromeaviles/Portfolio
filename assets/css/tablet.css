@@ -66,11 +66,34 @@
 	
 	/* Projects */
 
+	div#projectsWrapper {
+		padding-bottom: 40px;
+	}
+
 	div.projectContent > p {
 		padding-top: 25px;
 		padding-left: 25px;
 	}
 	.btn-visit {
 		margin-left: 25px;
+	}
+
+	/* Contact */
+
+	div#contactForm {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	/* Footer */
+
+	div#footerLeft {
+		padding: 25px 0 15px 50px;
+
+	}
+
+	div#footerRight > ul > li {
+		margin-right: 15px;
+		margin-top: 10px;
 	}
 }
