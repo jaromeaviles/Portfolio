@@ -97,9 +97,9 @@
     margin-top: 3px;
     width: 60%;
     margin: 0 auto;
-    padding-left: 15px;
   }
   div#footerRight > ul > li {
-  	padding: 5px;
+    padding: 5px;
+  	
   }
 }
