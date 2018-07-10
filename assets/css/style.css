@@ -109,9 +109,7 @@
     padding: 15px;
     color: #caccc1;
   }
-  div#skillSection > span {
-    color: #caccc1;
-  }
+  
   div.progress-bar {
     background-color: #00A86B;
   }
@@ -142,8 +140,6 @@
     color: #333;
   }
 
-
-
   div.projectContent > h4 {
     font-family: 'Chela One', cursive;
   }
@@ -152,9 +148,44 @@
   a.btn-visit {
     background-color: #151a1d;
   }
+   a.btn-visit:hover {
+    background-color: #caccc1;
+    color: #333;
+   }
+
+   /* Contact */
 
   div#contactHeader {
     padding: 15px;
+  }
+
+  textarea#formMessage {
+    max-height: 100px;
+    min-height: 100px;
+  }
+
+  form#contactMe > button {
+    background-color: #00A86B;
+    border: none;
+  }
+
+  /* Footer */
+
+  div#footerWrapper {
+    background-color: #333;
+    margin-top: 25px;
+  }
+
+  div#footerRight > ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  div#footerRight > ul > li {
+    display: inline-block;
+  }
+  div#footerRight > ul > li > a {
+    font-size: 30px;
   }
 
   

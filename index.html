@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
 	<title>Jarome Carlo Aviles</title>
@@ -56,7 +56,7 @@
 						<a class="nav-link" href="#projectHeader">Projects</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contact</a>
+						<a class="nav-link" href="#contactForm">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -92,11 +92,9 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-sm-12 col-md-12 col-lg-12">
-			<div id="aboutHeader" class="py-4">	
-				<h2 class="text-center">About Me</h2>
-			</div> <!-- /#aboutHeader -->
-		</div>
+		<div class="col-sm-12 col-md-12 col-lg-12 py-4" id="aboutHeader">
+			<h2 class="text-center">About Me</h2>
+		</div> <!-- /#aboutHeader -->
 
 		<div class="col-sm-12 col-md-4 col-lg-4">
 			<div id="aboutLeft" class="mb-3">
@@ -180,28 +178,60 @@
 <div id="skillWrapper">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-12">
-				<div id="skillSection">
+			<div class="col-sm-12 col-md-12 col-lg-12" id="skillSection">
+				<h2 class="text-center">My Skills</h2>
+			</div>
 
-					<h2 class="text-center">My Skills</h2>
+			<div class="col-sm-12 col-md-3 col-lg-3 pb-2 text-center">		
+				<span>HTML/CSS</span>
+			</div>
 
-					<span>HTML/CSS</span>
-					<div class="progress">
-						<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
-					<span>Javascript</span>
-					<div class="progress">
-						<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
-					<span>JQuery</span>
-					<div class="progress">
-						<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
-					<span>PHP</span>
-					<div class="progress">
-						<div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-					</div> <!-- .progress -->
-				</div> <!-- /#skillSection -->
+			<div class="col-sm-12 col-md-9 col-lg-9">
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+				</div>
+			</div>
+
+			<div class="col-sm-12 col-md-3 col-lg-3 pb-2 text-center">
+				<span>Javascript</span>
+
+			</div>
+			<div class="col-sm-12 col-md-9 col-lg-9">
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-3 pb-2 text-center">
+				<span>JQuery</span>
+			</div>
+			<div class="col-sm-12 col-md-9 col-lg-9">
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-3 pb-2 text-center">
+				<span>MySQL</span>
+			</div>
+			<div class="col-sm-12 col-md-9 col-lg-9">
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-3 pb-2 text-center">
+				<span>PHP/Laravel</span>
+			</div>
+			<div class="col-sm-12 col-md-9 col-lg-9">
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-3 pb-2 text-center">
+				<span>Wordpress</span>
+			</div>
+			<div class="col-sm-12 col-md-9 col-lg-9">
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+				</div>
 			</div>
 		</div> <!-- .row -->
 	</div> <!-- .container -->
@@ -210,11 +240,9 @@
 <div id="projectsWrapper">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-12">
-				<div id="projectHeader">
-					<h2>Projects</h2>
-				</div> <!-- /#projectHeader -->
-			</div>
+			<div class="col-sm-12 col-md-12 col-lg-12" id="projectHeader">	
+				<h2>Projects</h2>
+			</div> <!-- /#projectHeader -->
 
 			<!-- Capstone 1 -->
 
@@ -285,17 +313,41 @@
 						<input type="email" class="form-control" id="emailAdd" aria-describedby="emailHelp" placeholder="Enter email">
 					</div>
 					<div class="form-group">
-					<label for="formMessage">Message</label>
-					<textarea class="form-control" id="formMessage">
-						
-					</textarea>
+						<label for="formMessage">Message</label>
+						<textarea class="form-control" id="formMessage">
+
+						</textarea>
 					</div>
 					<button type="submit" class="btn btn-primary">Send</button>
 				</form>
 			</div>
+
 		</div>
 	</div>
 </div> <!-- /#contactWrapper -->
+
+<div id="footerWrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-8 col-lg-8">
+				<div id="footerLeft">
+					<p>Coded by Jarome Aviles &middot; 2018</p>
+				</div> <!-- /#footerLeft -->
+			</div>
+
+			<div class="col-sm-12 col-md-4 col-lg-4">
+				<div id="footerRight">
+					<ul>
+						<li><a href="#" id="fb"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#" id="linked"><i class="fab fa-linkedin-in"></i></a></li>
+						<li><a href="#" id="twitt"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#" id="github"><i class="fab fa-github"></i></a></li>
+					</ul>
+				</div> <!-- /#footerRight -->
+			</div>
+		</div> <!-- /.row -->
+	</div> <!-- /.container -->
+</div> <!-- /#footerWrapper -->
 
 
 

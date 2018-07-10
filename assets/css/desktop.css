@@ -26,7 +26,7 @@
 		margin: 10px;
 	}
 	div#socialLinks > ul > li > a {
-		font-size: 40px;
+		font-size: 30px;
 	}
 
 	/* About */
@@ -66,10 +66,6 @@
 
 	/* Skills */
 
-	div.progress {
-		width: 60%;
-		margin: 0 auto;
-	}
 
 	/* Projects */
 
@@ -91,4 +87,16 @@
 		width: 80%;
 		margin: 0 auto;
 	}
+
+	/* Footer */
+
+	div#footerLeft {
+		padding: 20px 0 15px 100px;
+
+	}
+
+	div#footerRight > ul > li {
+    margin-right: 15px;
+    margin-top: 10px;
+  }
 }

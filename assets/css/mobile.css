@@ -7,10 +7,10 @@
 	div#mainHeader {
 		/*position: absolute;*/
 		width: 100%;
-		/*top: 50%;*/
-		/*left: 50%;*/
-		/*transform: translate(-50%, 170%);*/
-		margin-top: 25px;
+		top: 50%;
+		left: 50%;
+		transform: translate(0%, 35%);
+		/*margin-top: 60px;*/
 	}
 	div#socialLinks > ul {
 		list-style-type: none;
@@ -73,4 +73,33 @@
 		width: 100%;
 		margin-bottom: 15px;
 	}
+
+	/* Contact */
+
+	div#contactForm {
+		width: 90%;
+		margin: 0 auto;
+	}
+	form#contactMe > button {
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	/* Footer */
+
+	div#footerLeft {
+		text-align: center;
+		padding-top: 25px;
+	}
+
+	div#footerRight {
+    margin-top: 3px;
+    width: 60%;
+    margin: 0 auto;
+    padding-left: 15px;
+  }
+  div#footerRight > ul > li {
+  	padding: 5px;
+  }
 }
