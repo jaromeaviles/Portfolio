@@ -11,9 +11,25 @@
  }
 
  body {
- 	color: #caccc1;
+ 	color: #222;
  	font-family: 'Lato', sans-serif;*/
  }
+
+ .text-style {
+  color: #45b29a;
+  text-align: center;
+  width: 103%;
+ }
+
+ .increase {
+  font-size: 45px;
+ }
+
+ .page-separator {
+  margin-top: 10vh;
+ }
+
+
 
 
  /*
@@ -29,7 +45,7 @@
 
 
   div#mainWrapper {
-    background-color: #6ed3cf;
+    background-color: #45b29a;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,19 +116,37 @@
 
   /* Skills */
 
- /* div#skillWrapper {
-    background-color: #151a1d;
-    padding-bottom: 50px;
-  }
-  div#skillSection > h2 {
-    font-family: 'Chela One', cursive;
-    padding: 15px;
-    color: #caccc1;
-  }*/
+ .skill-header {
+  margin-bottom: 10vh;
+ }
+
+ .skill-set {
+    margin-bottom: 40px;
+ }
+
+ .skill-name {
+  color: #222;
+  font-size: 15px;
+ }
   
-  div.progress-bar {
-    background-color: #00A86B;
-  }
+
+ .develop-wrapper {
+  /*background-color: #f3f2ee;*/
+  height: 90vh;
+ }
+
+ #developImage {
+  width: 65%;
+  height: 125%;
+  display: block;
+  margin: 0 auto;
+ }
+
+ p#developContent {
+  text-align: center;
+  padding: 25px;
+  font-size: 20px;
+ }
 
   /* Projects */
 
