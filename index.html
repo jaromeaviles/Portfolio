@@ -24,10 +24,14 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Lato|Chela+One" rel="stylesheet">
 
+	<!-- Imports Animate CSS -->
+
+	<link href="https://fastcdn.org/Animate.css/3.4.0/animate.min.css" rel="stylesheet">
+
 	<!-- Imports Custom Stylesheet -->
-	<link rel="stylesheet" type="text/css" href="./assets/css/desktop.css">
+	<!-- <link rel="stylesheet" type="text/css" href="./assets/css/desktop.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/tablet.css">
-	<link rel="stylesheet" type="text/css" href="./assets/css/mobile.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/mobile.css"> -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
 
@@ -36,7 +40,7 @@
 
 	<!-- Navigation -->
 
-	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
 		<div class="container">
 
 			<a class="navbar-brand" href="index.html"><img src="./assets/img/creator.jpg" alt="Ja" width="40" height="40" class="img-thumbnail"></a>
@@ -65,305 +69,232 @@
 
 
 	<div id="mainWrapper">
-		<div class="container-fluid">
+		<div class="container-fluid banner">
 			<div class="row">
 				<div class="col-sm-12 col-md-12 col-lg-12">
 					<div id="mainHeader" class="text-center">
-						<h1>Jarome Aviles</h1>
+						<h1>Hi. Im Jarome!</h1>
 						<h3>Professional web designer &amp; <span id="webDev">Developer</span></h3>
-
-						<div id="socialLinks">
-							<ul>
-								<li><a href="#" id="fb"><i class="fab fa-facebook"></i></a></li>
-								<li><a href="#" id="linked"><i class="fab fa-linkedin"></i></a></li>
-								<li><a href="#" id="twitt"><i class="fab fa-twitter-square"></i></a></li>
-								<li><a href="#" id="github"><i class="fab fa-github-square"></i></a></li>
-							</ul>
-							<button class="btn btn-success px-4" id="hireButton"><i class="fas fa-check"></i> Hire me</button>
-						</div> <!-- /#socialLinks -->
-					</div> <!-- /#socialLinks -->
+					</div> <!-- /#mainHeader -->
 				</div> <!-- /#mainHeader -->
 			</div>
 		</div>
-	</div>
-</div> <!-- /#mainWrapper -->
+	</div> <!-- /#mainWrapper -->
 
-<!-- About -->
+	<!-- About -->
 
-<div class="container">
-	<div class="row">
-		<div class="col-sm-12 col-md-12 col-lg-12 py-4" id="aboutHeader">
-			<h2 class="text-center">About Me</h2>
-		</div> <!-- /#aboutHeader -->
-
-		<div class="col-sm-12 col-md-4 col-lg-4">
-			<div id="aboutLeft" class="mb-3">
-				<h3>My Skills</h3>
-
-				<h5>UX Design</h5>
-
-				<p>
-					Website Design, Mobile Design, Responsive Design
-				</p>
-
-				<h5>Development</h5>
-
-				<p>
-					HTML 5, CSS 3, Emulator HTML, JQuery
-				</p>
-
-				<h3>Tools I Use</h3>
-
-				<p>
-					<strong>Sublime Text</strong> - For coding and developing webpages.
-				</p>
-				<p>
-					<strong>Github</strong>
-				</p>
-				<p>
-					<strong>Chrome Developer Tools</strong>
-				</p>
-				<p>
-					<strong>Bootstrap</strong>
-				</p>
-				<p>
-					<strong>Sass</strong>
-				</p>
-				<p>
-					<strong>JQuery</strong>
-				</p>
-			</div> <!-- /#abouLeft -->
-		</div>
-
-
-		<div class="col-sm-12 col-md-4 col-lg-4">
-			<div id="aboutCenter" class="mb-3">
-				<img src="./assets/img/creator.jpg" alt="My Image" class="img-fluid img-thumbnail">
-
-				<p id="aboutDeveloper">
-					I'm a full stack web developer, freelancer and tuitt coding bootcamp graduate. Knowledgeable 
-					in different technologies like HTML5, CSS3, Bootstrap4, Javascript, JQuery, PHP/LARAVEL, 
-					MySQL. 
-				</p> 
-
-				<button class="btn btn-default"><i class="fas fa-download"></i> Download Resume</button>
-			</div> <!-- /#aboutCenter -->
-		</div>
-
-		<div class="col-sm-12 col-md-4 col-lg-4">
-			<div id="aboutRight">
-				<h3>Experience</h3>
-
-				<h5>Independent Contractor</h5>
-
-				<p>
-					Since February 8, 2018, I started working at Manifest Multimedia where we create and update websites using Wordpress
-				</p>
-
-				<h5>Digitizer</h5>
-
-				<p>
-					I Create Maps and Analyze in system using <strong>GIS</strong> (Geographical Information System) of Meralco
-					Application. I also responsible in Digitizing Primary Circuitry connectivity survey maps using GIS maps wherein 
-					substation feeder connected to the distribution system of MERALCO.
-				</p>
-			</div> <!-- /#abouRight -->
-		</div>
-	</div> <!-- /.row -->
-</div> <!-- /.container -->
-
-<!-- Skillsets -->
-
-<div id="skillWrapper">
-	<div class="container">
+	<div class="container align-center">
 		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-12" id="skillSection">
-				<h2 class="text-center">My Skills</h2>
-			</div>
+			<div class="col-sm-12 col-md-12 col-lg-12" id="aboutSection">
+				<img src="./assets/img/profile.jpg" class="img-responsive rounded-circle" alt="profile" id="profileImage">
 
-			<div class="col-sm-12 col-md-3 col-lg-3 pb-2 text-center">		
-				<span>HTML/CSS</span>
-			</div>
+				<div id="profileContent">
+					
+					<h3>Hi</h3>
 
-			<div class="col-sm-12 col-md-9 col-lg-9">
-				<div class="progress">
-					<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
 			</div>
-
-			<div class="col-sm-12 col-md-3 col-lg-3 pb-2 text-center">
-				<span>Javascript</span>
-
-			</div>
-			<div class="col-sm-12 col-md-9 col-lg-9">
-				<div class="progress">
-					<div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
-				</div>
-			</div>
-			<div class="col-sm-12 col-md-3 col-lg-3 pb-2 text-center">
-				<span>JQuery</span>
-			</div>
-			<div class="col-sm-12 col-md-9 col-lg-9">
-				<div class="progress">
-					<div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
-				</div>
-			</div>
-			<div class="col-sm-12 col-md-3 col-lg-3 pb-2 text-center">
-				<span>MySQL</span>
-			</div>
-			<div class="col-sm-12 col-md-9 col-lg-9">
-				<div class="progress">
-					<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
-				</div>
-			</div>
-			<div class="col-sm-12 col-md-3 col-lg-3 pb-2 text-center">
-				<span>PHP/Laravel</span>
-			</div>
-			<div class="col-sm-12 col-md-9 col-lg-9">
-				<div class="progress">
-					<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
-				</div>
-			</div>
-			<div class="col-sm-12 col-md-3 col-lg-3 pb-2 text-center">
-				<span>Wordpress</span>
-			</div>
-			<div class="col-sm-12 col-md-9 col-lg-9">
-				<div class="progress">
-					<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
-				</div>
-			</div>
-		</div> <!-- .row -->
-	</div> <!-- .container -->
-</div> <!-- /#skillWrapper -->
-
-<div id="projectsWrapper">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-12" id="projectHeader">	
-				<h2>Projects</h2>
-			</div> <!-- /#projectHeader -->
-
-			<!-- Capstone 1 -->
-
-			<div class="col-sm-12 col-md-4 col-lg-4 mt-2">
-				<img src="./assets/img/capstone1.png" alt="Capstone 1 Project" class="img-fluid img-thumbnail">
-			</div>
-			<div class="col-sm-12 col-md-8 col-lg-8">
-				<div class="projectContent mt-3">
-					<h4>I Heart Pangasinan</h4>
-					<p>
-						The I “Heart” Pangasinan promotes the beauty of Pangasinan, it gives you 
-						information about the famous beaches and tourist spots that you and you’re 
-						loved one’s enjoy.
-					</p>
-
-					<a href="https://jaromeaviles.github.io/I-Heart-Pangasinan/" target="_blank" class="btn btn-success btn-visit">Visit Site</a>
-				</div> <!-- /.projectContent -->
-			</div>
-
-			<!-- Capstone 2 -->
-
-			<div class="col-sm-12 col-md-4 col-lg-4 mt-2">
-				<img src="./assets/img/capstone2.png" alt="Capstone 2 Project" class="img-fluid img-thumbnail">
-			</div>
-			<div class="col-sm-12 col-md-8 col-lg-8">
-				<div class="projectContent mt-3">
-					<h4>TickShop - Ecommerce</h4>
-					<p>
-						Affordable Watches. The future is on your wrist.
-					</p>
-
-					<a href="https://tickshoppy.000webhostapp.com/" target="_blank" class="btn btn-success btn-visit">Visit Site</a>
-				</div> <!-- /.projectContent -->
-			</div>
-
-			<!-- Capstone 3 -->
-
-			<div class="col-sm-12 col-md-4 col-lg-4 mt-2">
-				<img src="./assets/img/capstone3.png" alt="Capstone 3 Project" class="img-fluid img-thumbnail">
-			</div>
-			<div class="col-sm-12 col-md-8 col-lg-8">
-				<div class="projectContent mt-3">
-					<h4>Capstone 3</h4>
-					<p>
-						Coming Soon!
-					</p>
-
-					<a href="jaromeaviles.github.io/I-Heart-Pangasinan" target="_blank" class="btn btn-success btn-visit">Visit Site</a>
-				</div> <!-- /.projectContent -->
-			</div>
-		</div> <!-- /.row -->
-	</div> <!-- /.container -->
-</div> <!-- /#projectsWrapper -->
-
-<div id="contactWrapper">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-12">
-				<div id="contactHeader">
-					<h3 class="text-center">Contact Me</h3>
-				</div> <!-- /#contactHeader -->
-			</div>
-
-			<div id="contactForm">
-				<form method="POST" action="index.html" id="contactMe">
-					<div class="form-group">
-						<label for="emailAdd">Email address</label>
-						<input type="email" class="form-control" id="emailAdd" aria-describedby="emailHelp" placeholder="Enter email">
-					</div>
-					<div class="form-group">
-						<label for="formMessage">Message</label>
-						<textarea class="form-control" id="formMessage">
-
-						</textarea>
-					</div>
-					<button type="submit" class="btn btn-primary">Send</button>
-				</form>
-			</div>
-
 		</div>
 	</div>
-</div> <!-- /#contactWrapper -->
 
-<div id="footerWrapper">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 col-md-8 col-lg-8">
-				<div id="footerLeft">
-					<p>Jarome Aviles &middot; 2018</p>
-				</div> <!-- /#footerLeft -->
+	<!-- Skillsets -->
+
+	<div id="skillWrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12" id="skillSection">
+					<h2 class="text-center">My Skills</h2>
+				</div>
+
+				<div class="col-sm-12 col-md-3 col-lg-3 pb-2 text-center">		
+					<span>HTML/CSS</span>
+				</div>
+
+				<div class="col-sm-12 col-md-9 col-lg-9">
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-3 col-lg-3 pb-2 text-center">
+					<span>Javascript</span>
+
+				</div>
+				<div class="col-sm-12 col-md-9 col-lg-9">
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-3 col-lg-3 pb-2 text-center">
+					<span>JQuery</span>
+				</div>
+				<div class="col-sm-12 col-md-9 col-lg-9">
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-3 col-lg-3 pb-2 text-center">
+					<span>MySQL</span>
+				</div>
+				<div class="col-sm-12 col-md-9 col-lg-9">
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-3 col-lg-3 pb-2 text-center">
+					<span>PHP/Laravel</span>
+				</div>
+				<div class="col-sm-12 col-md-9 col-lg-9">
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-3 col-lg-3 pb-2 text-center">
+					<span>Wordpress</span>
+				</div>
+				<div class="col-sm-12 col-md-9 col-lg-9">
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+					</div>
+				</div>
+			</div> <!-- .row -->
+		</div> <!-- .container -->
+	</div> <!-- /#skillWrapper -->
+
+	<div id="projectsWrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12" id="projectHeader">	
+					<h2>Projects</h2>
+				</div> <!-- /#projectHeader -->
+
+				<!-- Capstone 1 -->
+
+				<div class="col-sm-12 col-md-4 col-lg-4 mt-2">
+					<img src="./assets/img/capstone1.png" alt="Capstone 1 Project" class="img-fluid img-thumbnail">
+				</div>
+				<div class="col-sm-12 col-md-8 col-lg-8">
+					<div class="projectContent mt-3">
+						<h4>I Heart Pangasinan</h4>
+						<p>
+							The I “Heart” Pangasinan promotes the beauty of Pangasinan, it gives you 
+							information about the famous beaches and tourist spots that you and you’re 
+							loved one’s enjoy.
+						</p>
+
+						<a href="https://jaromeaviles.github.io/I-Heart-Pangasinan/" target="_blank" class="btn btn-success btn-visit">Visit Site</a>
+					</div> <!-- /.projectContent -->
+				</div>
+
+				<!-- Capstone 2 -->
+
+				<div class="col-sm-12 col-md-4 col-lg-4 mt-2">
+					<img src="./assets/img/capstone2.png" alt="Capstone 2 Project" class="img-fluid img-thumbnail">
+				</div>
+				<div class="col-sm-12 col-md-8 col-lg-8">
+					<div class="projectContent mt-3">
+						<h4>TickShop - Ecommerce</h4>
+						<p>
+							Affordable Watches. The future is on your wrist.
+						</p>
+
+						<a href="https://tickshoppy.000webhostapp.com/" target="_blank" class="btn btn-success btn-visit">Visit Site</a>
+					</div> <!-- /.projectContent -->
+				</div>
+
+				<!-- Capstone 3 -->
+
+				<div class="col-sm-12 col-md-4 col-lg-4 mt-2">
+					<img src="./assets/img/capstone3.png" alt="Capstone 3 Project" class="img-fluid img-thumbnail">
+				</div>
+				<div class="col-sm-12 col-md-8 col-lg-8">
+					<div class="projectContent mt-3">
+						<h4>Capstone 3</h4>
+						<p>
+							Coming Soon!
+						</p>
+
+						<a href="jaromeaviles.github.io/I-Heart-Pangasinan" target="_blank" class="btn btn-success btn-visit">Visit Site</a>
+					</div> <!-- /.projectContent -->
+				</div>
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+	</div> <!-- /#projectsWrapper -->
+
+	<div id="contactWrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<div id="contactHeader">
+						<h3 class="text-center">Contact Me</h3>
+					</div> <!-- /#contactHeader -->
+				</div>
+
+				<div id="contactForm">
+					<form method="POST" action="index.html" id="contactMe">
+						<div class="form-group">
+							<label for="emailAdd">Email address</label>
+							<input type="email" class="form-control" id="emailAdd" aria-describedby="emailHelp" placeholder="Enter email">
+						</div>
+						<div class="form-group">
+							<label for="formMessage">Message</label>
+							<textarea class="form-control" id="formMessage">
+
+							</textarea>
+						</div>
+						<button type="submit" class="btn btn-primary">Send</button>
+					</form>
+				</div>
+
 			</div>
+		</div>
+	</div> <!-- /#contactWrapper -->
 
-			<div class="col-sm-12 col-md-4 col-lg-4">
-				<div id="footerRight">
-					<ul>
-						<li><a href="#" id="fb"><i class="fab fa-facebook-f"></i></a></li>
-						<li><a href="#" id="linked"><i class="fab fa-linkedin-in"></i></a></li>
-						<li><a href="#" id="twitt"><i class="fab fa-twitter"></i></a></li>
-						<li><a href="#" id="github"><i class="fab fa-github"></i></a></li>
-					</ul>
-				</div> <!-- /#footerRight -->
-			</div>
-		</div> <!-- /.row -->
-	</div> <!-- /.container -->
-</div> <!-- /#footerWrapper -->
+	<div id="footerWrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-8 col-lg-8">
+					<div id="footerLeft">
+						<p>Jarome Aviles &middot; 2018</p>
+					</div> <!-- /#footerLeft -->
+				</div>
 
-
-
-
-
-
-<!-- Imports Bootstrap Script -->
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+				<div class="col-sm-12 col-md-4 col-lg-4">
+					<div id="footerRight">
+						<ul>
+							<li><a href="#" id="fb"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#" id="linked"><i class="fab fa-linkedin-in"></i></a></li>
+							<li><a href="#" id="twitt"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#" id="github"><i class="fab fa-github"></i></a></li>
+						</ul>
+					</div> <!-- /#footerRight -->
+				</div>
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+	</div> <!-- /#footerWrapper -->
 
 
-<!-- Imports Custom Script -->
 
-<script src="./assets/js/script.js"></script>
+
+
+
+	<!-- Imports Bootstrap Script -->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+	<!-- Imports Custom Script -->
+
+	<script src="./assets/js/script.js"></script>
 </body>
 </html>

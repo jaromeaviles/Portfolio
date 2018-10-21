@@ -12,7 +12,6 @@
 
  body {
  	color: #caccc1;
-  background-color: #151a1d;
  	font-family: 'Lato', sans-serif;*/
  }
 
@@ -30,30 +29,36 @@
 
 
   div#mainWrapper {
-  	background-color: #333;
-  	position: relative;
-  	background-image: url(../img/sky.jpg);
-    background-attachment: fixed;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	background-position: center;
-  	height: 100vh;
-    margin-top: 50px;
+    background-color: #6ed3cf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
   }
+
   span#webDev {
   	border-right: 2px solid #fffeee;
   	padding-right: 5px;
+    color: #222;
+  }
+
+  div#mainHeader {
+    animation: fadeIn 4.5s ease-in;
+    box-shadow: 0px 15px 50px rgba(0.0.0.0.5);
   }
 
   div#mainHeader > h1 {
   	font-family: 'Chela One', cursive;
-  	text-shadow: 5px 5px 2px #b84f4b;
     letter-spacing: 2px;
-  	color: #fffeee;
+    font-size: 50px;
+  	color: #e1e8f0;
+    text-shadow: 0px 15px 50px #222;
   }
   div#mainHeader > h3 {
-  	color: #fffeee;
+  	color: #222;
   	text-transform: uppercase;
+    font-size: 20px;
+
   }
  
   div#mainHeader > button {
@@ -62,45 +67,40 @@
 
   }
   button#hireButton {
-  	/*background-color: #b84f4b;*/
     background-color: #151a1d;
     color: #fff;
     border: 1px solid #669297;
   }
 
-  #fb {
-      color: #3b5998;
-  }
-  #linked {
-    color: #0e76a8;
-  }
-  #twitt {
-    color: #1da1f2;
-  }
-  #github {
-    color: #4078c0;
-  }
 
   /* About */
 
-  div#aboutHeader {
-  	margin-top: 15px;
+  .align-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  div#aboutHeader > h2 { 
-    font-family: 'Chela One', cursive;
+  #aboutSection {
+    margin-top: 10vh;
+    width: 50vw;
+    text-align: center;
   }
 
-  div#aboutCenter > img {
-    /*width: 20%;*/
-    border-radius: 50%;
-    /*display: block;*/
-    /*margin: 0 auto;*/
+  #profileContent {
+    margin-top: 25px;
+  }
+
+  #profileImage {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
   }
 
   /* Skills */
 
-  div#skillWrapper {
+ /* div#skillWrapper {
     background-color: #151a1d;
     padding-bottom: 50px;
   }
@@ -108,7 +108,7 @@
     font-family: 'Chela One', cursive;
     padding: 15px;
     color: #caccc1;
-  }
+  }*/
   
   div.progress-bar {
     background-color: #00A86B;
