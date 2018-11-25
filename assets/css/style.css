@@ -12,7 +12,7 @@
 
  body {
  	color: #222;
- 	font-family: 'Lato', sans-serif;*/
+ 	font-family: 'Lato', sans-serif;
  }
 
 .text-style {
@@ -57,7 +57,7 @@
 
 
   #mainWrapper {
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/creator.jpg');
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/banner.jpg');
     background-position: right;
     background-size: cover;
   }
@@ -136,42 +136,82 @@
     margin: 0 auto;
   }
 
-  /* Skills */
+  /* Design Section */
 
-  #skillsetWrapper {
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/skillsbackground.jpeg');
+  .design-wrapper {
+  min-height: 100vh;
+ }
+
+ #designDisplay {
+  
     min-height: 100vh;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #designDisplay > i {
+  font-size: 140px;
+  color: #2D2D2D;
+ }
+
+ #designSection {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+  #designSection > h2 {
+      font-family: 'Chela One', cursive;
+      letter-spacing: 5px;
+      font-size: 50px;
   }
 
- .skill-header {
-  padding: 50px;
-  margin-bottom: 10px;
+ p#designContent {
+  text-align: center;
+  padding: 25px;
+  font-size: 20px;
  }
+ 
 
- .skill-set {
-    margin-bottom: 40px;
- }
 
- .skill-name {
-  color: #fff;
-  font-size: 15px;
- }
-  
+
+/* Develop Section */
+
 
  .develop-wrapper {
-  height: 90vh;
+  min-height: 100vh;
  }
 
- #developImage {
-  width: 65%;
-  height: 125%;
-  display: block;
-  margin: 0 auto;
+ #developDisplay {
+  
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
  }
+
+ #developDisplay > i {
+  font-size: 140px;
+  color: #2D2D2D;
+ }
+
+ #developSection {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+  #developSection > h2 {
+      font-family: 'Chela One', cursive;
+      letter-spacing: 5px;
+      font-size: 50px;
+  }
+
 
  p#developContent {
   text-align: center;
@@ -181,44 +221,53 @@
 
   /* Projects */
 
-  div#projectsWrapper {
-    margin-top: 15px;
-  /*  background-image: url(../img/art.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;*/
-    background-color: #caccc1;
+  div#projectWrapper {
+    background-color: #D7D7D7;
   }
 
   div#projectHeader {
     text-align: center;
     font-family: 'Chela One', cursive;
     padding: 15px;
+    height: 20vh;
   }
   div#projectHeader > h2 {
-    color: #333;
+    /*color: #fff;*/
+    color: #2d2d2d;
+    line-height: 15vh;
+    letter-spacing: 5px;
+    font-size: 50px;
   }
 
-  div.projectContent > h4,
-  div.projectContent > p {
-    color: #333;
+  #capstoneProjects {
+
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
   }
 
-  div.projectContent > h4 {
-    font-family: 'Chela One', cursive;
+  #capstoneProjects h4 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bolder;
+    padding: 15px;
   }
 
-  
-  a.btn-visit {
-    background-color: #151a1d;
+  #capstoneProjects p {
+      text-align: justify;
   }
-   a.btn-visit:hover {
-    background-color: #caccc1;
-    color: #333;
-   }
 
-   /* Contact */
+  .capstone {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: block;
+  }
+
+  /* Contact */
 
   div#contactHeader {
     padding: 15px;
