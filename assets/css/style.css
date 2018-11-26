@@ -68,26 +68,27 @@
     color: #ea3057;
   }
 
-  div#mainHeader {
+ /* div#mainHeader {
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  }
+  }*/
 
-  div#mainHeader > h1 {
+  /*div#mainHeader > h1 {
   	font-family: 'Chela One', cursive;
     letter-spacing: 2px;
     font-size: 50px;
   	color: #e1e8f0;
-  }
-  div#mainHeader > h3 {
+  }*/
+  
+ /* div#mainHeader > h3 {
   	color: #fff;
   	text-transform: uppercase;
     font-size: 20px;
 
-  }
+  }*/
  
   div#mainHeader > button {
   	margin: 10px;
@@ -103,48 +104,41 @@
 
   /* About */
 
-  .align-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 
-  #aboutSection {
+
+ /* #aboutSection {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    min-height: 100vh;
+    height: 80vh;
     width: 50vw;
-    text-align: center;
-  }
+    /*text-align: center;*/
+  
 
   #profileContent {
     margin-top: 25px;
   }
 
-  #profileContent > p {
+ /* #profileContent > p {
     margin-top: 25px;
     font-size: 1.2em;
     padding: 15px;
-  }
+  }*/
 
-  #profileImage {
+ /* #profileImage {
     height: 190px;
     width: 190px;
     display: block;
     margin: 0 auto;
-  }
+  }*/
 
   /* Design Section */
 
-  .design-wrapper {
-  min-height: 100vh;
- }
 
  #designDisplay {
   
-    min-height: 100vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,7 +150,7 @@
  }
 
  #designSection {
-    height: 100vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -181,13 +175,10 @@
 /* Develop Section */
 
 
- .develop-wrapper {
-  min-height: 100vh;
- }
 
  #developDisplay {
   
-    min-height: 100vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -199,7 +190,7 @@
  }
 
  #developSection {
-    height: 100vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -232,7 +223,6 @@
     height: 20vh;
   }
   div#projectHeader > h2 {
-    /*color: #fff;*/
     color: #2d2d2d;
     line-height: 15vh;
     letter-spacing: 5px;
@@ -241,7 +231,6 @@
 
   #capstoneProjects {
 
-    min-height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -283,23 +272,42 @@
     border: none;
   }
 
+
+  div#contactForm {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
   /* Footer */
 
   div#footerWrapper {
     background-color: #333;
-    margin-top: 25px;
+    height: 15vh;
+    color: #fff;
   }
 
   div#footerRight > ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   div#footerRight > ul > li {
     display: inline-block;
+    padding: 15px;
   }
   div#footerRight > ul > li > a {
-    font-size: 30px;
+    font-size: 1.2em;
   }
 
+  div#footerLeft {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;  
+  }
   

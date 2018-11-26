@@ -4,102 +4,59 @@
 
 @media only screen and (max-width: 400px) {
 
-	div#mainHeader {
-		/*position: absolute;*/
-		width: 100%;
-		top: 50%;
-		left: 50%;
-		transform: translate(0%, 35%);
-		/*margin-top: 60px;*/
-	}
-	div#socialLinks > ul {
-		list-style-type: none;
-		padding: 0;
-		margin: 0;
-	}
+/*div#mainHeader {
+		min-height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}*/
 
-	div#socialLinks > ul > li {
-		display: inline;
-		margin: 10px;
-	}
-	div#socialLinks > ul > li > a {
-		font-size: 40px;
-	}
+	 #mainWrapper {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/banner.jpg');
+    background-position: right;
+    background-size: cover;
+    min-height: 50vh;
+    }
 
-	/* About */
-
-	div#aboutLeft > h3 {
-		background-color: #b84f4b;
-		color: #fffeee;
-		/*width: 40%;*/
-		text-align: center;
-		margin-bottom: 25px;
-	}
-	div#aboutLeft > h5,
-	div#aboutRight > h5 {
-		font-weight: 700;
-		text-align: center;
-	}
-
-	div#aboutCenter > button {
-		text-align: center;
-		display: block;
-		margin: 0 auto;
-		/*width: 100%;*/
-		background-color: #00A86B;
-		color: #fff;
-	}
-
-	p#aboutDeveloper {
-		padding: 15px;
-		text-align: center;
-	}
-
-	div#aboutRight > h3 {
-		background-color: #b84f4b;
-		color: #fffeee;
-		/*width: 40%;*/
-		text-align: center;
-		margin-bottom: 25px;
-	}
-
-	/* Projects */
-
-	div.projectContent > h4 {
-		text-align: center;
-	}
-
-	a.btn-visit {
-		width: 100%;
-		margin-bottom: 15px;
-	}
-
-	/* Contact */
-
-	div#contactForm {
-		width: 90%;
-		margin: 0 auto;
-	}
-	form#contactMe > button {
-		width: 100%;
-		display: block;
-		margin: 0 auto;
-	}
-
-	/* Footer */
-
-	div#footerLeft {
-		text-align: center;
-		padding-top: 25px;
-	}
-
-	div#footerRight {
-    margin-top: 3px;
-    width: 60%;
-    margin: 0 auto;
+	 .navbar-toggler-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250,229,229)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
-  div#footerRight > ul > li {
-    padding: 5px;
-  	
+
+ div#mainHeader > h1 {
+  	font-family: 'Chela One', cursive;
+    letter-spacing: 2px;
+    font-size: 30px;
+  	color: #e1e8f0;
   }
-}
+
+   div#mainHeader > h3 {
+  	color: #fff;
+  	text-transform: uppercase;
+    font-size: 8px;
+
+  }
+
+  #aboutSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*height: 80vh;*/
+    width: 100vw;
+
+  }
+
+  #profileImage {
+  	display: block;
+  	padding-top: 15px;
+  	height: 180px;
+  }
+
+
+   #profileContent > p {
+
+    font-size: 1.2em;
+    width: 100%;
+
+  }
