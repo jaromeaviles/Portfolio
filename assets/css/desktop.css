@@ -28,6 +28,15 @@
 
   }
 
+  #navbarSupportedContent > ul > li {
+    margin: 0 10px;
+  }
+
+  #navbarSupportedContent > ul > li > a:hover {
+      text-decoration: underline;
+
+  }
+
     #aboutSection {
     display: flex;
     align-items: center;
@@ -57,3 +66,38 @@
     margin: 0 auto;
   }
 
+   #developSection {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ #developSection  p {
+    text-align: center;
+ }
+
+  div#contactForm {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  form#contactMe > button {
+    background-color: #00A86B;
+    border: none;
+  }
+
+   div#footerWrapper {
+    background-color: #333;
+    height: 15vh;
+    color: #fff;
+  }
+
+  div#footerLeft {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;  
+  }

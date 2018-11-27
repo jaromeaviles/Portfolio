@@ -68,27 +68,6 @@
     color: #ea3057;
   }
 
- /* div#mainHeader {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }*/
-
-  /*div#mainHeader > h1 {
-  	font-family: 'Chela One', cursive;
-    letter-spacing: 2px;
-    font-size: 50px;
-  	color: #e1e8f0;
-  }*/
-  
- /* div#mainHeader > h3 {
-  	color: #fff;
-  	text-transform: uppercase;
-    font-size: 20px;
-
-  }*/
  
   div#mainHeader > button {
   	margin: 10px;
@@ -105,33 +84,10 @@
   /* About */
 
 
-
- /* #aboutSection {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 80vh;
-    width: 50vw;
-    /*text-align: center;*/
-  
-
   #profileContent {
     margin-top: 25px;
   }
 
- /* #profileContent > p {
-    margin-top: 25px;
-    font-size: 1.2em;
-    padding: 15px;
-  }*/
-
- /* #profileImage {
-    height: 190px;
-    width: 190px;
-    display: block;
-    margin: 0 auto;
-  }*/
 
   /* Design Section */
 
@@ -189,13 +145,7 @@
   color: #2D2D2D;
  }
 
- #developSection {
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
- }
+
 
   #developSection > h2 {
       font-family: 'Chela One', cursive;
@@ -267,26 +217,12 @@
     min-height: 100px;
   }
 
-  form#contactMe > button {
-    background-color: #00A86B;
-    border: none;
-  }
+  
 
-
-  div#contactForm {
-    width: 80%;
-    margin: 0 auto;
-    padding: 15px;
-  }
-
+ 
   /* Footer */
 
-  div#footerWrapper {
-    background-color: #333;
-    height: 15vh;
-    color: #fff;
-  }
-
+ 
   div#footerRight > ul {
     padding: 0;
     margin: 0;
@@ -304,10 +240,5 @@
     font-size: 1.2em;
   }
 
-  div#footerLeft {
-    height: 15vh;
-    display: flex;
-    align-items: center;
-    justify-content: left;  
-  }
+  
   

@@ -40,10 +40,11 @@
   #aboutSection {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: justify;
     flex-direction: column;
-    /*height: 80vh;*/
+    min-height: 80vh;
     width: 100vw;
+    margin-bottom: 15px;
 
   }
 
@@ -60,3 +61,32 @@
     width: 100%;
 
   }
+
+   div#contactForm {
+    width: 100%;
+    padding: 15px;
+  }
+
+  form#contactMe > button {
+    background-color: #00A86B;
+    border: none;
+    width: 100%;
+  }
+
+   div#footerWrapper {
+    background-color: #333;
+    min-height: 15vh;
+    color: #fff;
+  }
+
+  div#footerLeft {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+   div#footerLeft > p {
+    
+    line-height: 18vh;
+   }
