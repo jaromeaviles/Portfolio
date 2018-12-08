@@ -12,7 +12,7 @@
 
  body {
  	color: #222;
- 	font-family: 'Lato', sans-serif;
+ 	font-family: 'Open Sans', sans-serif;
  }
 
 .text-style {
@@ -56,6 +56,7 @@
   }
 
 
+
   #mainWrapper {
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/banner.jpg');
     background-position: right;
@@ -68,26 +69,6 @@
     color: #ea3057;
   }
 
-  div#mainHeader {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  div#mainHeader > h1 {
-  	font-family: 'Chela One', cursive;
-    letter-spacing: 2px;
-    font-size: 50px;
-  	color: #e1e8f0;
-  }
-  div#mainHeader > h3 {
-  	color: #fff;
-  	text-transform: uppercase;
-    font-size: 20px;
-
-  }
  
   div#mainHeader > button {
   	margin: 10px;
@@ -103,48 +84,29 @@
 
   /* About */
 
-  .align-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #aboutSection {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    min-height: 100vh;
-    width: 50vw;
-    text-align: center;
-  }
 
   #profileContent {
     margin-top: 25px;
   }
 
-  #profileContent > p {
-    margin-top: 25px;
-    font-size: 1.2em;
+  #downloadCV {
+    background-color: #333;
+    color: #fff;
     padding: 15px;
+    border-radius: 10px;
+
   }
 
-  #profileImage {
-    height: 190px;
-    width: 190px;
-    display: block;
-    margin: 0 auto;
+  #downloadCV:hover {
+    text-decoration: none;
   }
 
   /* Design Section */
 
-  .design-wrapper {
-  min-height: 100vh;
- }
 
  #designDisplay {
   
-    min-height: 100vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,7 +118,7 @@
  }
 
  #designSection {
-    height: 100vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -164,7 +126,7 @@
  }
 
   #designSection > h2 {
-      font-family: 'Chela One', cursive;
+     font-family: 'Montserrat', sans-serif;
       letter-spacing: 5px;
       font-size: 50px;
   }
@@ -181,13 +143,10 @@
 /* Develop Section */
 
 
- .develop-wrapper {
-  min-height: 100vh;
- }
 
  #developDisplay {
   
-    min-height: 100vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -198,16 +157,10 @@
   color: #2D2D2D;
  }
 
- #developSection {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
- }
+
 
   #developSection > h2 {
-      font-family: 'Chela One', cursive;
+     font-family: 'Montserrat', sans-serif;
       letter-spacing: 5px;
       font-size: 50px;
   }
@@ -227,12 +180,11 @@
 
   div#projectHeader {
     text-align: center;
-    font-family: 'Chela One', cursive;
+   font-family: 'Montserrat', sans-serif;
     padding: 15px;
     height: 20vh;
   }
   div#projectHeader > h2 {
-    /*color: #fff;*/
     color: #2d2d2d;
     line-height: 15vh;
     letter-spacing: 5px;
@@ -241,11 +193,25 @@
 
   #capstoneProjects {
 
-    min-height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
    
+  }
+
+  .capstone-section > img {
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .capstone-info {
+    height: 150px;
+  }
+
+  .capstone-section  div {
+    text-align: center;
   }
 
   #capstoneProjects h4 {
@@ -278,28 +244,52 @@
     min-height: 100px;
   }
 
-  form#contactMe > button {
-    background-color: #00A86B;
-    border: none;
+  #contact {
+    height: 80vh;
   }
 
+  #mainWrapperContact {
+    background: #333;
+  }
+
+  #contactHeader {
+    font-weight: bolder;
+  }
+
+ form#contactMe > button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  form#contactMe > button:hover {
+    background: #aaa;
+    color: #333;
+    cursor: pointer;
+  }
+
+ 
   /* Footer */
 
-  div#footerWrapper {
-    background-color: #333;
-    margin-top: 25px;
-  }
-
+ 
   div#footerRight > ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   div#footerRight > ul > li {
     display: inline-block;
+    padding: 15px;
   }
   div#footerRight > ul > li > a {
-    font-size: 30px;
+    font-size: 1.2em;
   }
 
+  
   
