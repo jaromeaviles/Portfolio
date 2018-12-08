@@ -12,7 +12,7 @@
 
  body {
  	color: #222;
- 	font-family: 'Lato', sans-serif;
+ 	font-family: 'Open Sans', sans-serif;
  }
 
 .text-style {
@@ -56,6 +56,7 @@
   }
 
 
+
   #mainWrapper {
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/banner.jpg');
     background-position: right;
@@ -88,13 +89,24 @@
     margin-top: 25px;
   }
 
+  #downloadCV {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+
+  }
+
+  #downloadCV:hover {
+    text-decoration: none;
+  }
 
   /* Design Section */
 
 
  #designDisplay {
   
-    height: 60vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,7 +118,7 @@
  }
 
  #designSection {
-    height: 60vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,7 +126,7 @@
  }
 
   #designSection > h2 {
-      font-family: 'Chela One', cursive;
+     font-family: 'Montserrat', sans-serif;
       letter-spacing: 5px;
       font-size: 50px;
   }
@@ -148,7 +160,7 @@
 
 
   #developSection > h2 {
-      font-family: 'Chela One', cursive;
+     font-family: 'Montserrat', sans-serif;
       letter-spacing: 5px;
       font-size: 50px;
   }
@@ -168,7 +180,7 @@
 
   div#projectHeader {
     text-align: center;
-    font-family: 'Chela One', cursive;
+   font-family: 'Montserrat', sans-serif;
     padding: 15px;
     height: 20vh;
   }
@@ -185,6 +197,21 @@
     align-items: center;
     justify-content: center;
    
+  }
+
+  .capstone-section > img {
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .capstone-info {
+    height: 150px;
+  }
+
+  .capstone-section  div {
+    text-align: center;
   }
 
   #capstoneProjects h4 {
@@ -217,7 +244,31 @@
     min-height: 100px;
   }
 
+  #contact {
+    height: 80vh;
+  }
+
+  #mainWrapperContact {
+    background: #333;
+  }
+
+  #contactHeader {
+    font-weight: bolder;
+  }
+
+ form#contactMe > button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+  }
   
+  form#contactMe > button:hover {
+    background: #aaa;
+    color: #333;
+    cursor: pointer;
+  }
 
  
   /* Footer */

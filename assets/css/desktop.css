@@ -42,7 +42,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 80vh;
+    min-height: 100vh;
+    margin-top: 10vh;
     width: 50vw;
     text-align: center;
   }
@@ -78,8 +79,12 @@
     text-align: center;
  }
 
+ #capstoneProjects {
+    height: 80vh;
+ }
+
   div#contactForm {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     padding: 15px;
   }
