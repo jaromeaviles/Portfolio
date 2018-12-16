@@ -6,6 +6,14 @@
 
 @media only screen and (min-width: 1280px) {
 
+
+  #header {
+    background: transparent;
+    color: #fff;
+    height: 15vh;
+    line-height: 10vh;
+  }
+
 	div#mainHeader {
     min-height: 100vh;
     display: flex;
@@ -37,6 +45,12 @@
 
   }
 
+  /*
+   *
+   * About Section
+   *
+   */
+
     #aboutSection {
     display: flex;
     align-items: center;
@@ -58,6 +72,8 @@
     margin-top: 25px;
     font-size: 1.2em;
     padding: 15px;
+    width: 60vw;
+    text-align: justify;
   }
 
    #profileImage {
@@ -66,6 +82,12 @@
     display: block;
     margin: 0 auto;
   }
+
+  /*
+   *
+   * Develop Section
+   *
+   */
 
    #developSection {
     height: 60vh;
@@ -79,9 +101,55 @@
     text-align: center;
  }
 
+ /*
+  *
+  * project Section
+  *
+  */
+
  #capstoneProjects {
     height: 80vh;
  }
+
+ .capstone-section > img {
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .capstone-info {
+    height: 150px;
+  }
+
+  .capstone-section  div {
+    text-align: center;
+  }
+
+  #capstoneProjects h4 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bolder;
+    padding: 15px;
+  }
+
+  #capstoneProjects p {
+      text-align: justify;
+  }
+
+  .capstone {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: block;
+  }
+
+ /*
+  *
+  * Contact Section
+  *
+  */
 
   div#contactForm {
     width: 60%;
@@ -93,6 +161,12 @@
     background-color: #00A86B;
     border: none;
   }
+
+  /*
+   *
+   * Footer Section
+   *
+   */
 
    div#footerWrapper {
     background-color: #333;
@@ -106,3 +180,8 @@
     align-items: center;
     justify-content: left;  
   }
+
+  div#footerLeft p {
+    margin-bottom: 0;
+  }
+
