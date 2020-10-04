@@ -3,11 +3,11 @@
 
 /* Tablet Devices */
 
-@media only screen and (min-width: 401px) and (max-width: 1200px) {
+@media only screen and (max-width: 768px) and (min-width:  361px) {
 
 
 	div#mainHeader {
-		height: 100vh;
+		min-height: 100vh;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -15,148 +15,6 @@
 	}
 
 
-	 #header {
-     background: transparent;
-     color: #fff;
-     height: 10vh;
-     line-height: 10vh;
-     }
-
-    div#mainHeader > h1 {
-  	font-family: 'Chela One', cursive;
-    letter-spacing: 2px;
-    font-size: 50px;
-  	color: #e1e8f0;
-  }
-
-    div#mainHeader > h3 {
-  	color: #fff;
-  	text-transform: uppercase;
-    font-size: 20px;
-
-  }
-
-  /*
-   *
-   * About Section
-   *
-   */
-
-    #aboutSection {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    min-height: 50vh;
-    margin-top: 5vh;
-    width: 50vw;
-    text-align: center;
-  }
-
-   .align-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-   #profileContent > p {
-    margin-top: 25px;
-    font-size: 1.2em;
-    padding: 15px;
-    width: 70vw;
-    text-align: justify;
-  }
-
-   #profileImage {
-    height: 190px;
-    width: 190px;
-    display: block;
-    margin: 0 auto;
-  }
-
-  /*
-   *
-   * Develop Section
-   *
-   */
-
-   #developSection {
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-   #developSection  p, #designSection p {
-    text-align: center;
-   }
-
-  /*
-  *
-  * project Section
-  *
-  */
-
- #capstoneProjects {
-    height: 40vh;
- }
-
- .capstone-section > img {
-    height: 200px;
-    width: 300px;
-    display: block;
-    margin: 0 auto;
-  }
-
-  .capstone-info {
-    height: 150px;
-  }
-
-  .capstone-section  div {
-    text-align: center;
-  }
-
-  #capstoneProjects h4 {
-    text-align: center;
-    font-size: 26px;
-    font-weight: bolder;
-    padding: 15px;
-  }
-
-  #capstoneProjects p {
-      text-align: justify;
-  }
-
-  .capstone {
-    border-radius: 10px;
-    max-width: 100%;
-    height: auto;
-    background-color: #fff;
-    display: block;
-  }
-
-  /*
-   *
-   * Footer Section
-   *
-   */
-
-   div#footerWrapper {
-    background-color: #333;
-    height: 15vh;
-    color: #fff;
-  }
-
-  div#footerLeft {
-    height: 15vh;
-    display: flex;
-    align-items: center;
-    justify-content: left;  
-  }
-
-  div#footerLeft p {
-    margin-bottom: 0;
-  }
-
- 
+ .navbar-toggler-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250,229,229)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}

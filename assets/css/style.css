@@ -11,8 +11,13 @@
  }
 
  body {
- 	color: #222;
+ 	color: #333333;
  	font-family: 'Open Sans', sans-serif;
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
  }
 
 .text-style {
@@ -29,7 +34,9 @@
   min-height: 100vh;
  }
 
-
+.wrapper {
+	padding: 60px 0;
+}
 
 
  /*
@@ -40,6 +47,12 @@
 
   /* Navigation Bar */
 
+  #header {
+    background: transparent;
+    color: #fff;
+    height: 15vh;
+    line-height: 10vh;
+  }
 
   #header .navbar-brand {
     color: #fff;
@@ -55,9 +68,6 @@
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/banner.jpg');
     background-position: right;
     background-size: cover;
-   -moz-box-shadow:    3px 3px 5px 6px #ccc;
-   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-   box-shadow: 3px 3px 5px 6px #ccc;
   }
 
   span#webDev {
@@ -86,93 +96,7 @@
     margin-top: 25px;
   }
 
-  #profileImage {
-    border: 1px solid #aaa;
-  }
-
-  #downloadCV {
-    background-color: #333;
-    color: #fff;
-    padding: 15px;
-    border-radius: 10px;
-
-  }
-
-  #downloadCV:hover {
-    text-decoration: none;
-  }
-
-  /* Design Section */
-
-
- #designDisplay {
-  
-    min-height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
-
- #designDisplay > i {
-  font-size: 140px;
-  color: #2D2D2D;
- }
-
- #designSection {
-    min-height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
- }
-
-  #designSection > h2 {
-     font-family: 'Montserrat', sans-serif;
-      letter-spacing: 5px;
-      font-size: 50px;
-  }
-
- p#designContent {
-  text-align: center;
-  padding: 25px;
-  font-size: 20px;
- }
  
-
-
-
-/* Develop Section */
-
-
-
- #developDisplay {
-  
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
-
- #developDisplay > i {
-  font-size: 140px;
-  color: #2D2D2D;
- }
-
-
-
-  #developSection > h2 {
-     font-family: 'Montserrat', sans-serif;
-      letter-spacing: 5px;
-      font-size: 50px;
-  }
-
-
- p#developContent {
-  text-align: center;
-  padding: 25px;
-  font-size: 20px;
- }
-
   /* Projects */
 
   div#projectWrapper {
@@ -181,7 +105,6 @@
 
   div#projectHeader {
     text-align: center;
-   font-family: 'Montserrat', sans-serif;
     padding: 15px;
     height: 20vh;
   }

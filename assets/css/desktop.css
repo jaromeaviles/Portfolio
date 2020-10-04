@@ -4,18 +4,10 @@
 
 
 
-@media only screen and (min-width: 1280px) {
-
-
-  #header {
-    background: transparent;
-    color: #fff;
-    height: 15vh;
-    line-height: 10vh;
-  }
+@media only screen and (max-width: 1920px) {
 
 	div#mainHeader {
-    min-height: 100vh;
+    min-height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,16 +15,16 @@
   }
 
   div#mainHeader > h1 {
-  	font-family: 'Chela One', cursive;
     letter-spacing: 2px;
-    font-size: 50px;
-  	color: #e1e8f0;
+    font-size: 80px;
+  	color: #ffffff;
+    text-shadow: 2px 2px #000000;
   }
 
    div#mainHeader > h3 {
-  	color: #fff;
+  	color: #ffffff;
   	text-transform: uppercase;
-    font-size: 20px;
+    font-size: 40px;
 
   }
 
@@ -43,23 +35,52 @@
   #navbarSupportedContent > ul > li > a:hover {
       text-decoration: underline;
 
-  }
+  } 
 
-  /*
-   *
-   * About Section
-   *
-   */
+  /* ABOUT */
 
-    #aboutSection {
+  #aboutContent {
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
-    min-height: 100vh;
-    margin-top: 10vh;
-    width: 50vw;
-    text-align: center;
+  }
+
+  #aboutContent h2 {
+    text-align: left;
+  }
+
+  #downloadCV {
+    margin-top: 40px;
+  }
+
+  #downloadCV a {
+    background-color: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+
+  }
+
+  #downloadCV a:hover {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #333333;
+  }
+
+   #aboutImage {
+    margin-top: auto;
+    margin-bottom: auto;
+
+  }
+
+  #aboutImage img {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 50px 20px 0 0px #333333;
   }
 
    .align-center {
@@ -72,84 +93,11 @@
     margin-top: 25px;
     font-size: 1.2em;
     padding: 15px;
-    width: 60vw;
-    text-align: justify;
   }
-
-   #profileImage {
-    height: 190px;
-    width: 190px;
-    display: block;
-    margin: 0 auto;
-  }
-
-  /*
-   *
-   * Develop Section
-   *
-   */
-
-   #developSection {
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
- }
-
- #developSection  p {
-    text-align: center;
- }
-
- /*
-  *
-  * project Section
-  *
-  */
 
  #capstoneProjects {
     height: 80vh;
  }
-
- .capstone-section > img {
-    height: 200px;
-    width: 300px;
-    display: block;
-    margin: 0 auto;
-  }
-
-  .capstone-info {
-    height: 150px;
-  }
-
-  .capstone-section  div {
-    text-align: center;
-  }
-
-  #capstoneProjects h4 {
-    text-align: center;
-    font-size: 26px;
-    font-weight: bolder;
-    padding: 15px;
-  }
-
-  #capstoneProjects p {
-      text-align: justify;
-  }
-
-  .capstone {
-    border-radius: 10px;
-    max-width: 100%;
-    height: auto;
-    background-color: #fff;
-    display: block;
-  }
-
- /*
-  *
-  * Contact Section
-  *
-  */
 
   div#contactForm {
     width: 60%;
@@ -161,12 +109,6 @@
     background-color: #00A86B;
     border: none;
   }
-
-  /*
-   *
-   * Footer Section
-   *
-   */
 
    div#footerWrapper {
     background-color: #333;
@@ -180,8 +122,3 @@
     align-items: center;
     justify-content: left;  
   }
-
-  div#footerLeft p {
-    margin-bottom: 0;
-  }
-
