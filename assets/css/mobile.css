@@ -4,13 +4,6 @@
 
 @media only screen and (max-width: 400px) {
 
-/*div#mainHeader {
-		min-height: 100vh;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		flex-direction: column;
-	}*/
 
 	 #mainWrapper {
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/banner.jpg');
@@ -22,6 +15,17 @@
 	 .navbar-toggler-icon {
    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250,229,229)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
+
+   .navbar .show {
+      background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
+      text-align: center;
+      color: #fff;
+      z-index: 1;
+   }
+
+   #mainHeader {
+    margin-top: 10vh;
+   }
 
  div#mainHeader > h1 {
   	font-family: 'Chela One', cursive;
@@ -37,6 +41,12 @@
 
   }
 
+  /*
+   *
+   * About
+   *
+   */
+
   #aboutSection {
     display: flex;
     align-items: center;
@@ -44,7 +54,7 @@
     flex-direction: column;
     min-height: 80vh;
     width: 100vw;
-    margin-bottom: 15px;
+    margin: 20px 0;
 
   }
 
@@ -59,8 +69,52 @@
 
     font-size: 1.2em;
     width: 100%;
+    text-align: center;
 
   }
+
+  #downloadCV {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  /*
+   *
+   * Design Section
+   *
+   */
+
+   #designSection {
+    text-align: center;
+   }
+
+   /*
+   *
+   * Develop Section
+   *
+   */
+
+   #developSection {
+    text-align: center;
+   }
+
+   /*
+    *
+    * Projects
+    *
+    */
+
+    .capstone-section {
+      padding-bottom: 20px;
+    }
+
+
+  /*
+   *
+   * Contact
+   *
+   */
 
    div#contactForm {
     width: 100%;
@@ -73,6 +127,12 @@
     width: 100%;
   }
 
+  /*
+   *
+   * Footer
+   *
+   */
+
    div#footerWrapper {
     background-color: #333;
     min-height: 15vh;
@@ -80,7 +140,7 @@
   }
 
   div#footerLeft {
-    min-height: 10vh;
+    min-height: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
