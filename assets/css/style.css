@@ -4,6 +4,10 @@
  *
  */
 
+ html {
+  scroll-behavior: smooth;
+ }
+
  * {
  	margin: 0;
  	padding: 0;
@@ -18,21 +22,7 @@
  h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
- }
-
-.text-style {
-  color: #ea3057;
-  text-align: center;
-  width: 103%;
- }
-
- .increase {
-  font-size: 45px;
- }
-
- .page-separator {
-  min-height: 100vh;
- }
+}
 
 .wrapper {
 	padding: 60px 0;
@@ -56,6 +46,9 @@
 
   #header .navbar-brand {
     color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
   }
 
   #header .nav-link {
@@ -73,10 +66,10 @@
   span#webDev {
     border-right: 2px solid #fffeee;
     padding-right: 5px;
-    color: #ea3057;
+    color: #00c6a5;
   }
 
- 
+
   div#mainHeader > button {
   	margin: 10px;
   	text-transform: uppercase;
@@ -91,113 +84,29 @@
 
   /* About */
 
-
   #profileContent {
     margin-top: 25px;
   }
 
- 
-  /* Projects */
+  /* Portfolio */
 
-  div#projectWrapper {
-    background-color: #D7D7D7;
+  #portfolio-wrapper {
+    background-color: #f5f5f5;
   }
 
-  div#projectHeader {
-    text-align: center;
-    padding: 15px;
-    height: 20vh;
-  }
-  div#projectHeader > h2 {
-    color: #2d2d2d;
-    line-height: 15vh;
-    letter-spacing: 5px;
-    font-size: 50px;
-  }
-
-  #capstoneProjects {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-  }
-
-  .capstone-section > img {
-    height: 200px;
-    width: 300px;
-    display: block;
+  .portfolio-content {
+    max-width: 1140px;
     margin: 0 auto;
   }
 
-  .capstone-info {
-    height: 150px;
-  }
-
-  .capstone-section  div {
+  .portfolio-content h4 {
     text-align: center;
+    font-size: 18px;
   }
 
-  #capstoneProjects h4 {
-    text-align: center;
-    font-size: 26px;
-    font-weight: bolder;
-    padding: 15px;
-  }
-
-  #capstoneProjects p {
-      text-align: justify;
-  }
-
-  .capstone {
-    border-radius: 10px;
-    max-width: 100%;
-    height: auto;
-    background-color: #fff;
-    display: block;
-  }
-
-  /* Contact */
-
-  div#contactHeader {
-    padding: 15px;
-  }
-
-  textarea#formMessage {
-    max-height: 100px;
-    min-height: 100px;
-  }
-
-  #contact {
-    height: 80vh;
-  }
-
-  #mainWrapperContact {
-    background: #333;
-  }
-
-  #contactHeader {
-    font-weight: bolder;
-  }
-
- form#contactMe > button {
-    background-color: #333;
-    border: none;
-    color: #fff;
-    padding: 15px;
-    border-radius: 5px;
-  }
-  
-  form#contactMe > button:hover {
-    background: #aaa;
-    color: #333;
-    cursor: pointer;
-  }
-
- 
   /* Footer */
 
- 
+
   div#footerRight > ul {
     padding: 0;
     margin: 0;

@@ -17,11 +17,11 @@
   div#mainHeader > h1 {
     letter-spacing: 2px;
     font-size: 80px;
-  	color: #ffffff;
+    color: #ffffff;
     text-shadow: 2px 2px #000000;
   }
 
-   div#mainHeader > h3 {
+  div#mainHeader > h3 {
   	color: #ffffff;
   	text-transform: uppercase;
     font-size: 40px;
@@ -33,7 +33,7 @@
   }
 
   #navbarSupportedContent > ul > li > a:hover {
-      text-decoration: underline;
+    text-decoration: underline;
 
   } 
 
@@ -47,6 +47,10 @@
 
   #aboutContent h2 {
     text-align: left;
+    text-transform: uppercase;
+    color: #00c6a5;
+    font-size: 50px;
+    padding: 20px 0;
   }
 
   #downloadCV {
@@ -56,11 +60,12 @@
   #downloadCV a {
     background-color: none;
     text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
     color: #ffffff;
-    padding: 15px;
+    padding: 20px;
     border-radius: 10px;
     border: 3px solid #ffffff;
-
   }
 
   #downloadCV a:hover {
@@ -69,7 +74,7 @@
     color: #333333;
   }
 
-   #aboutImage {
+  #aboutImage {
     margin-top: auto;
     margin-bottom: auto;
 
@@ -80,37 +85,44 @@
     width: 300px;
     display: block;
     margin: 0 auto;
-    box-shadow: 50px 20px 0 0px #333333;
+    box-shadow: 2px 2px 5px #333333;
   }
 
-   .align-center {
+  .align-center {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-   #profileContent > p {
+  #profileContent > p {
     margin-top: 25px;
     font-size: 1.2em;
     padding: 15px;
   }
 
- #capstoneProjects {
-    height: 80vh;
- }
 
-  div#contactForm {
-    width: 60%;
-    margin: 0 auto;
-    padding: 15px;
+   /* Portfolio */
+
+  #portfolio-wrapper h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #00c6a5;
+    font-size: 50px;
+    padding: 20px 0;
   }
 
-  form#contactMe > button {
-    background-color: #00A86B;
-    border: none;
+  .card {
+    margin: 10px 0;
   }
 
-   div#footerWrapper {
+  .card img {
+    height: 250px;
+    object-fit: cover;
+  }
+
+  /* Footer */
+
+  div#footerWrapper {
     background-color: #333;
     height: 15vh;
     color: #fff;
@@ -122,3 +134,4 @@
     align-items: center;
     justify-content: left;  
   }
+
