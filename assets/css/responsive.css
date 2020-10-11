@@ -1,0 +1,244 @@
+
+
+/* Desktop Devices */
+
+
+
+@media only screen and (max-width: 1920px) {
+
+	div#mainHeader {
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  div#mainHeader > h1 {
+    letter-spacing: 2px;
+    font-size: 80px;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+  }
+
+  div#mainHeader > h3 {
+  	color: #ffffff;
+  	text-transform: uppercase;
+    font-size: 40px;
+
+  }
+
+  /* ABOUT */
+
+  #aboutContent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #aboutContent h2 {
+    text-align: left;
+    text-transform: uppercase;
+    color: #00c6a5;
+    font-size: 50px;
+    padding: 20px 0;
+  }
+
+  #downloadCV {
+    margin-top: 40px;
+  }
+
+  #downloadCV a {
+    background-color: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+  #downloadCV a:hover {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #333333;
+  }
+
+  #aboutImage {
+    margin-top: auto;
+    margin-bottom: auto;
+
+  }
+
+  #aboutImage img {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px #333333;
+  }
+
+  .align-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #profileContent > p {
+    margin-top: 25px;
+    font-size: 1.2em;
+    padding: 15px;
+  }
+
+
+  /* Portfolio */
+
+  #portfolio-wrapper h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #00c6a5;
+    font-size: 50px;
+    padding: 20px 0;
+  }
+
+  .card {
+    margin: 10px 0;
+  }
+
+  .card img {
+    height: 250px;
+    object-fit: cover;
+  }
+
+  /* Contact */
+
+  #contact-content h2 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #00c6a5;
+    font-size: 50px;
+    padding: 20px 0;
+  }
+
+  #contact-content a {
+    padding: 10px 20px;
+    border: 1px solid #333333;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #333333;
+    display: block;
+    width: 24%;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  #contact-content a:hover {
+    text-decoration: none;
+    background-color: #333333;
+    color: #ffffff;
+  }
+
+  /* TABLET */
+
+  @media only screen and (max-width: 768px) {
+
+    #header {
+      line-height: 7vh;
+    }
+
+    .fixed-top {
+      position: relative;
+    }
+
+    .header-transparent {
+      background-color: #333333;
+    }
+
+    #header .nav-link {
+      padding: 0 15px;
+    }
+
+    /* Hero */
+
+     div#mainHeader {
+      height: 50vh;
+      padding-bottom: 60px;
+    }
+
+    div#mainHeader > h1 {
+      font-size: 50px;
+    }
+
+    /* ABOUT */
+
+    #aboutContent h2, #aboutContent {
+      text-align: center;
+    }
+
+    #aboutContent {
+      padding: 0 20px;
+      margin-bottom: 20px;
+    }
+
+    #aboutWrapper .container {
+      width: 500px;
+    }
+
+    /* CONTACT */
+
+    #contact-content {
+      width: 500px;
+      height: 50vh;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    #contact-content h2 {
+      text-align: center;
+    }
+
+    #contact-content a {
+      width: 100%;
+    }
+
+  }
+
+  /* MOBILE */
+
+  @media only screen and (max-width: 480px) {
+
+    /* NAV */
+
+    #header {
+      line-height: 7vh;
+    }
+
+    .nav-link {
+      font-size: 20px;
+    }
+
+    /* Hero */
+
+    #mainWrapper {
+      background-position: center;
+    }
+
+    /* ABOUT */
+
+    #aboutWrapper .container {
+      width: 100%;
+    }
+
+    #aboutWrapper .row {
+      margin-right: 0;
+      margin-left: 0;
+    }
+
+    /* CONTACT */
+
+    #contact-content {
+      width: 100%;
+    }
+  }
+

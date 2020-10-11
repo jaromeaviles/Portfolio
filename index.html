@@ -29,10 +29,8 @@
 	<link rel="stylesheet" href="assets/css/animate.css">
 
 	<!-- Imports Custom Stylesheet -->
-	<link rel="stylesheet" type="text/css" href="./assets/css/desktop.css">
-	<link rel="stylesheet" type="text/css" href="./assets/css/tablet.css">
-	<link rel="stylesheet" type="text/css" href="./assets/css/mobile.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/responsive.css">
 
 
 </head>
@@ -42,10 +40,9 @@
 
 	<div id="mainWrapper">
 		<div id="header">	
-			<nav class="navbar navbar-expand-lg">
+			<nav class="navbar header-transparent navbar-expand-lg navbar-dark fixed-top">
 				<div class="container">
-
-					<a class="navbar-brand" href="index.html">Jarome Aviles</a>
+					<a class="navbar-brand" href="#">Jarome Aviles</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -53,16 +50,16 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav ml-auto pr-5">
 							<li class="nav-item">
-								<a class="nav-link active" href="index.html">Home</a>
+								<a class="nav-link" href="#">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link active" href="#">About</a>
+								<a class="nav-link" href="#aboutWrapper">About</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Projects</a>
+								<a class="nav-link" href="#portfolio-wrapper">Portfolio</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Contact</a>
+								<a class="nav-link" href="#contact">Contact</a>
 							</li>
 						</ul>
 					</div>
@@ -93,15 +90,9 @@
 			<div class="row">
 				<div class="col-sm-12 col-md-12 col-lg-6 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="2s" id="aboutContent">
 
-					<h2 class="text-style">About Me</h2>
+					<h2 class="text-style">About</h2>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					
+					<p>Hi. I'm Jarome Carlo Aviles. I completed my 6 mos training of Full Stack Web Development at Tuitt (Current name Zuitt) Coding Bootcamp. I learned HTML, CSS, Bootstrap, Javascript, SQL and PHP and created different&nbsp;projects.</p>
 				</div>
 
 				<div class="col-sm-12 col-md-12 col-lg-6 h-100" id="aboutImage">		
@@ -115,33 +106,15 @@
 
 <!-- Portfolio -->
 
-<div class="container-fluid wrapper" id="portfolio-wrapper">
+<div class="container-fluid wrapper wow fadeInUp" id="portfolio-wrapper">
 	<div class="row portfolio-content">
 		<div class="col-sm-12 col-md-12 col-lg-12">
-			<h2 class="wow fadeInUp">Portfolio</h2>
+			<h2>Portfolio</h2>
 		</div>
 
 		<div class="col-sm-12 col-md-6 col-lg-4">
 			<div class="card" style="width: 100%;">
-				<a href="https://pizzarox.com/" target="_blank"><img class="card-img-top" src="./assets/img/pizza.PNG" alt="Pizzarox"></a>
-				<div class="card-body">
-					<h4 class="card-text">Pizzarox</h4>
-				</div>
-			</div>
-		</div>
-
-		<div class="col-sm-12 col-md-6 col-lg-4">
-			<div class="card" style="width: 100%;">
-				<a href="https://dwyerlawyer.com/" target="_blank"><img class="card-img-top" src="./assets/img/dwyer-law.PNG" alt="Dwyer Law"></a>
-				<div class="card-body">
-					<h4 class="card-text">Dwyer Law</h4>
-				</div>
-			</div>
-		</div>
-
-		<div class="col-sm-12 col-md-6 col-lg-4">
-			<div class="card" style="width: 100%;">
-				<a href="https://jaromeaviles.github.io/AEU/" target="_blank"><img class="card-img-top" src="./assets/img/AEU.PNG" alt="Australian Energy Upgrades"></a>
+				<a href="https://jaromeaviles.github.io/AEU/" target="_blank"><img class="card-img-top" src="./assets/img/bootstrap.png" alt="Australian Energy Upgrades"></a>
 				<div class="card-body">
 					<h4 class="card-text">Australian Energy Upgrades</h4>
 				</div>
@@ -159,7 +132,34 @@
 
 		<div class="col-sm-12 col-md-6 col-lg-4">
 			<div class="card" style="width: 100%;">
-				<a href="https://jaromeaviles.github.io/I-Heart-Pangasinan/" target="_blank"><img class="card-img-top" src="./assets/img/capstone1.png" alt="I Heart Pangasinan"></a>
+				<a href="https://pizzarox.com/" target="_blank"><img class="card-img-top" src="./assets/img/beaver.jpg" alt="Pizzarox"></a>
+				<div class="card-body">
+					<h4 class="card-text">Pizzarox</h4>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-12 col-md-6 col-lg-4">
+			<div class="card" style="width: 100%;">
+				<a href="https://dwyerlawyer.com/" target="_blank"><img class="card-img-top" src="./assets/img/beaver.jpg" alt="Dwyer Law"></a>
+				<div class="card-body">
+					<h4 class="card-text">Dwyer Law</h4>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-12 col-md-6 col-lg-4">
+			<div class="card" style="width: 100%;">
+				<a href="http://53d.c49.myftpupload.com/" target="_blank"><img class="card-img-top" src="./assets/img/beaver.jpg" alt="Susan Pelleran Realty"></a>
+				<div class="card-body">
+					<h4 class="card-text">Susan Pelleran Realty</h4>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-12 col-md-6 col-lg-4">
+			<div class="card" style="width: 100%;">
+				<a href="https://jaromeaviles.github.io/I-Heart-Pangasinan/" target="_blank"><img class="card-img-top" src="./assets/img/bootstrap.png" alt="I Heart Pangasinan"></a>
 				<div class="card-body">
 					<h4 class="card-text">I Heart Pangasinan</h4>
 				</div>
@@ -168,7 +168,7 @@
 
 		<div class="col-sm-12 col-md-6 col-lg-4">
 			<div class="card" style="width: 100%;">
-				<a href="https://tickshoppy.000webhostapp.com/" target="_blank"><img class="card-img-top" src="./assets/img/capstone2.png" alt="TickShop - Ecommerce"></a>
+				<a href="https://tickshoppy.000webhostapp.com/" target="_blank"><img class="card-img-top" src="./assets/img/bootstrap.png" alt="TickShop - Ecommerce"></a>
 				<div class="card-body">
 					<h4 class="card-text">TickShop - Ecommerce</h4>
 				</div>
@@ -177,7 +177,7 @@
 
 		<div class="col-sm-12 col-md-6 col-lg-4">
 			<div class="card" style="width: 100%;">
-				<a href="http://peaceful-retreat-29107.herokuapp.com/" target="_blank"><img class="card-img-top" src="./assets/img/capstone3.png" alt="Gabay Aral"></a>
+				<a href="http://peaceful-retreat-29107.herokuapp.com/" target="_blank"><img class="card-img-top" src="./assets/img/bootstrap.png" alt="Gabay Aral"></a>
 				<div class="card-body">
 					<h4 class="card-text">Gabay Aral</h4>
 				</div>
@@ -188,24 +188,30 @@
 </div> 
 </div>
 
+<!-- Contact -->
+
+<div class="container wrapper" id="contact">
+	<div class="row">
+		<div class="col-sm-12 col-md-12 col-lg-6">
+			<img src="assets/img/undraw_emails_6uqr.png" class="img-fluid wow fadeInLeft">
+		</div>
+		<div class="col-sm-12 col-md-12 col-lg-6">
+			<div id="contact-content" class="wow fadeInRight">
+				<h2>Contact</h2>
+				<p>I am 27-year old Web Developer with almost 2 years of experience in the web industry. I am currently based in Marikina City, Philippines.</p>
+				<a href="mailto:jaromeaviles@gmail.com" target="_blank">Email me!</a>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div id="footerWrapper">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12 col-md-8 col-lg-8">
-				<div id="footerLeft">
-					<p>Jarome Aviles &middot; 2020</p>
+			<div class="col-sm-12 col-md-12 col-lg-12">
+				<div id="footer">
+					<p>Copyright &copy; Jarome Aviles Portfolio 2020</p>
 				</div> <!-- /#footerLeft -->
-			</div>
-
-			<div class="col-sm-12 col-md-4 col-lg-4">
-				<div id="footerRight">
-					<ul>
-						<li><a href="#" id="fb"><i class="fab fa-facebook-f"></i></a></li>
-						<li><a href="#" id="linked"><i class="fab fa-linkedin-in"></i></a></li>
-						<li><a href="#" id="twitt"><i class="fab fa-twitter"></i></a></li>
-						<li><a href="#" id="github"><i class="fab fa-github"></i></a></li>
-					</ul>
-				</div> <!-- /#footerRight -->
 			</div>
 		</div> <!-- /.row -->
 	</div> <!-- /.container -->
@@ -235,5 +241,6 @@
 <!-- Imports Custom Script -->
 
 <script src="./assets/js/script.js"></script>
+
 </body>
 </html>
