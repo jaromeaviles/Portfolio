@@ -32,6 +32,29 @@
 
   }
 
+  #downloadCV {
+    margin-top: 40px;
+  }
+
+  #downloadCV a {
+    background-color: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 1em;
+    border: 3px solid #ffffff;
+    text-decoration: none;
+    transition: all 0.25s ease-in;
+  }
+
+  #downloadCV a:hover {
+    background-color: #ffffff;
+    color: #333333;
+  }
+
+
   /* ABOUT */
 
   #aboutContent {
@@ -48,27 +71,7 @@
     padding: 20px 0;
   }
 
-  #downloadCV {
-    margin-top: 40px;
-  }
-
-  #downloadCV a {
-    background-color: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    border: 3px solid #ffffff;
-  }
-
-  #downloadCV a:hover {
-    text-decoration: none;
-    background-color: #ffffff;
-    color: #333333;
-  }
-
+ 
   #aboutImage {
     margin-top: auto;
     margin-bottom: auto;
@@ -134,11 +137,12 @@
     display: block;
     width: 24%;
     text-transform: uppercase;
+    text-decoration: none;
     font-weight: bold;
+    transition: all 0.25s ease-in;
   }
 
   #contact-content a:hover {
-    text-decoration: none;
     background-color: #333333;
     color: #ffffff;
   }

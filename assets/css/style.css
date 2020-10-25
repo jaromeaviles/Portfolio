@@ -43,6 +43,7 @@ p {
 
   .header-transparent {
     background-color: transparent;
+    transition: all 0.24s;
   }
 
   .header-scrolled {
@@ -65,12 +66,13 @@ p {
   #header .nav-link {
     color: #ffffff;
     padding: 0 15px;
+    transition: all 0.25s ease-in;
+    border-radius: 2em;
+    text-decoration: none !important;
   }
 
   .nav-link:hover {
-    text-decoration: none !important;
     background-color: #00c6a5;
-    border-radius: 50px;
   }
 
 
