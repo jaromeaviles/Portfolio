@@ -4,7 +4,7 @@
 
 
 
-@media only screen and (max-width: 1920px) {
+@media (max-width: 1920px) {
 
    .wrapper {
       padding: 60px 0;
@@ -83,7 +83,7 @@
     width: 300px;
     display: block;
     margin: 0 auto;
-    box-shadow: 2px 2px 5px #333333;
+    box-shadow: 0 8px 6px -6px #333333;
   }
 
   .align-center {
@@ -146,10 +146,11 @@
     background-color: #333333;
     color: #ffffff;
   }
+}
 
   /* TABLET */
 
-  @media only screen and (max-width: 768px) {
+  @media (max-width: 768px) {
 
     #header {
       line-height: 7vh;
@@ -214,9 +215,17 @@
 
   /* MOBILE */
 
-  @media only screen and (max-width: 480px) {
+  @media (max-width: 480px) {
 
     /* NAV */
+
+    .fixed-top {
+      position: fixed;
+    }
+
+    .navbar-collapse .pr-5 {
+      padding-right: 0 !important;
+    }
 
     #header {
       line-height: 7vh;
@@ -224,6 +233,7 @@
 
     .nav-link {
       font-size: 20px;
+      text-align: center;
     }
 
     /* Hero */
@@ -250,4 +260,3 @@
     }
 
   }
-
